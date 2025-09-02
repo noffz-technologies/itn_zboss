@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "ncp_host_hl_proto.h": "c",
+        "simple_gw.h": "c"
+    }
+}
