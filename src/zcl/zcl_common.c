@@ -347,13 +347,20 @@ zb_uint8_t zb_zcl_get_attribute_size(zb_uint8_t attr_type, zb_uint8_t *attr_valu
       ret = 16U;
       break;
 
+    case ZB_ZCL_ATTR_TYPE_NULL:
+      TRACE_MSG(TRACE_ERROR, "Error, attr type null!", (FMT__0));
+      ret = 0;
+      break;
+
     default:
-      TRACE_MSG(TRACE_ZCL1, "Error, unsupported type!", (FMT__0));
+      // NOFFZ TODO: handle unsupported type size values, right now it is 0x0
+      ret = 0;
+      TRACE_MSG(TRACE_ERROR, "Error, unsupported type!", (FMT__0));
       break;
   }
 
   TRACE_MSG(TRACE_ZCL1, "<< zb_zcl_get_attribute_size: result %hd", (FMT__D, ret));
-  ZB_ASSERT(ret <= ZB_UINT8_MAX);
+
   return (zb_uint8_t)ret;
 }
 

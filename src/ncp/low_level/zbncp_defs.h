@@ -117,7 +117,7 @@
 
 #endif
 
-#if defined __GNUC__ && defined __x86_64__
+#if defined __GNUC__ && (defined __x86_64__ || defined __aarch64__)
 /** @brief Definition of pointer size for 64-bit platform. */
 #define ZBNCP_PTR_SIZE 8u
 #else

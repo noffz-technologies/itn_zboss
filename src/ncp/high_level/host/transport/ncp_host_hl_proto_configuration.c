@@ -863,6 +863,60 @@ static void handle_set_tc_policy_response(ncp_hl_response_header_t *response,
   TRACE_MSG(TRACE_TRANSPORT3, "<< handle_set_tc_policy_response", (FMT__0));
 }
 
+static void handle_set_tx_power_response(ncp_hl_response_header_t *response,
+                                          zb_uint16_t len)
+{
+  ncp_host_hl_rx_buf_handle_t body;
+  zb_int8_t txpower;
+  zb_ret_t error_code = ERROR_CODE(response->status_category, response->status_code);
+
+  ZVUNUSED(len);
+
+  TRACE_MSG(TRACE_TRANSPORT3, ">> handle_set_tx_power_response, status_code %d",
+            (FMT__D, error_code));
+
+  ncp_host_mark_blocking_request_finished();
+
+  if (error_code == RET_OK)
+  {
+    ncp_host_hl_init_response_body(response, len, &body);
+    ncp_host_hl_buf_get_u8(&body, &txpower);
+
+    TRACE_MSG(TRACE_TRANSPORT3, "actual txpower: %d", (FMT__D, txpower));
+
+    ncp_host_state_set_txpower(txpower);
+  }
+
+  TRACE_MSG(TRACE_TRANSPORT3, "<< handle_set_tx_power_response", (FMT__0));
+}
+
+static void handle_get_tx_power_response(ncp_hl_response_header_t *response,
+                                          zb_uint16_t len)
+{
+  ncp_host_hl_rx_buf_handle_t body;
+  zb_int8_t txpower;
+  zb_ret_t error_code = ERROR_CODE(response->status_category, response->status_code);
+
+  ZVUNUSED(len);
+
+  TRACE_MSG(TRACE_TRANSPORT3, ">> handle_get_tx_power_response, status_code %d",
+            (FMT__D, error_code));
+
+  ncp_host_mark_blocking_request_finished();
+
+  if (error_code == RET_OK)
+  {
+    ncp_host_hl_init_response_body(response, len, &body);
+    ncp_host_hl_buf_get_u8(&body, &txpower);
+
+    TRACE_MSG(TRACE_TRANSPORT3, "get txpower: %d", (FMT__D, txpower));
+
+    ncp_host_state_set_txpower(txpower);
+  }
+
+  TRACE_MSG(TRACE_TRANSPORT3, "<< handle_get_tx_power_response", (FMT__0));
+}
+
 
 #ifdef ZB_LIMIT_VISIBILITY
 static void handle_mac_add_visible_long_response(ncp_hl_response_header_t* response, zb_uint16_t len)
@@ -1056,6 +1110,12 @@ void ncp_host_handle_configuration_response(void* data, zb_uint16_t len)
       break;
     case NCP_HL_SET_TC_POLICY:
       handle_set_tc_policy_response(response_header, len);
+      break;
+    case NCP_HL_SET_TX_POWER:
+      handle_set_tx_power_response(response_header, len);
+      break;
+    case NCP_HL_GET_TX_POWER:
+      handle_get_tx_power_response(response_header, len);
       break;
 #ifdef ZB_LIMIT_VISIBILITY
     case NCP_HL_ADD_INVISIBLE_SHORT:
@@ -1820,6 +1880,43 @@ zb_ret_t ncp_host_set_tc_policy(zb_uint16_t policy_type, zb_uint8_t value)
 
   return ret;
 }
+
+zb_ret_t ncp_host_set_tx_power(zb_int8_t value)
+{
+  zb_ret_t ret = RET_BUSY;
+  ncp_host_hl_tx_buf_handle_t body;
+
+  TRACE_MSG(TRACE_TRANSPORT2, ">> ncp_host_set_tx_power ", (FMT__0));
+
+  if (!ncp_host_get_buf_for_blocking_request(NCP_HL_SET_TX_POWER, &body, NULL))
+  {
+    ncp_host_hl_buf_put_u8(&body, value);
+
+    ret = ncp_host_hl_send_packet(&body);
+  }
+
+  TRACE_MSG(TRACE_TRANSPORT2, "<< ncp_host_set_tx_power ", (FMT__0));
+
+  return ret;
+}
+
+zb_ret_t ncp_host_get_tx_power(void)
+{
+  zb_ret_t ret = RET_BUSY;
+  ncp_host_hl_tx_buf_handle_t body;
+
+  TRACE_MSG(TRACE_TRANSPORT2, ">> ncp_host_get_tx_power ", (FMT__0));
+
+  if (!ncp_host_get_buf_for_blocking_request(NCP_HL_GET_TX_POWER, &body, NULL))
+  {
+    ret = ncp_host_hl_send_packet(&body);
+  }
+
+  TRACE_MSG(TRACE_TRANSPORT2, "<< ncp_host_get_tx_power ", (FMT__0));
+
+  return ret;
+}
+
 
 #if defined ZB_ENABLE_ZGP
 

@@ -122,6 +122,7 @@ typedef struct soc_state_s
   zb_uint32_t fw_version;
   zb_uint32_t stack_version;
   zb_uint32_t ncp_protocol_version;
+  zb_int8_t txpower;
 } soc_state_t;
 
 
@@ -234,6 +235,11 @@ void ncp_host_state_get_use_extended_pan_id(zb_ext_pan_id_t ext_pan_id)
 zb_uint16_t ncp_host_state_get_pan_id(void)
 {
   return host_ctx.start_params.pan_id;
+}
+
+zb_int8_t ncp_host_state_get_txpower(void)
+{
+  return host_ctx.soc_state.txpower;
 }
 
 
@@ -351,6 +357,11 @@ void ncp_host_state_set_parent_short_address(zb_uint16_t address)
 void ncp_host_state_set_pan_id(zb_uint16_t pan_id)
 {
   host_ctx.start_params.pan_id = pan_id;
+}
+
+void ncp_host_state_set_txpower(zb_int8_t txpower)
+{
+  host_ctx.soc_state.txpower = txpower;
 }
 
 

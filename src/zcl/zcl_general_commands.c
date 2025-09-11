@@ -260,6 +260,7 @@ static void zb_zcl_read_attr_handler_continue(zb_uint8_t param)
   read_attr_req = (zb_zcl_read_attr_req_t*)zb_buf_begin(param);
   attr_num = zb_buf_len(param) / sizeof(zb_zcl_read_attr_req_t);
   TRACE_MSG(TRACE_ZCL2, "read_attr_req %p, attr_num %d", (FMT__P_D, read_attr_req, attr_num));
+  TRACE_MSG(TRACE_APP2, "read_attr_req ep %d, cluster %d, attr_num %d", (FMT__D_D_D,ZB_ZCL_PARSED_HDR_SHORT_DATA(cmd_info).dst_endpoint,cmd_info->cluster_id, attr_num));
 
   for(i = 0; i < attr_num; i++)
   {

@@ -215,7 +215,7 @@ void bdb_check_fn()
 #endif
 
 
-static void bdb_init(void)
+static void bdb_init(bool tc)
 {
   TRACE_MSG(TRACE_ZDO1, "bdb_init", (FMT__0));
   ZB_BDB().bdb_commissioning_step = ZB_BDB_INITIALIZATION;
@@ -235,8 +235,8 @@ static void bdb_init(void)
      (see bdb_init_channel_sets()) or if the app sets them directly using
      zb_set_bdb_primary_channel_set() or zb_set_bdb_secondary_channel_set() */
   ZB_BDB().bdb_primary_channel_set = ZB_BDB().bdb_secondary_channel_set = 0u;
-
-  zb_aib_tcpol_set_update_trust_center_link_keys_required(ZB_TRUE);
+  // NOFFZ: TRUE changed to FALSE
+  zb_aib_tcpol_set_update_trust_center_link_keys_required(tc);
 
 #if defined(ZB_BDB_ENABLE_FINDING_BINDING)
   zb_bdb_finding_binding_init_ctx();
@@ -2466,9 +2466,9 @@ zb_ret_t zb_bdb_start_secured_rejoin(void)
 }
 
 
-void bdb_force_link(void)
+void bdb_force_link(bool tc)
 {
-  bdb_init();
+  bdb_init(tc);
 
 #if defined ZB_BDB_TOUCHLINK && !defined NCP_MODE_HOST
   ZG->nwk.selector.should_accept_frame_before_join = bdb_should_accept_frame_before_join;
@@ -2504,7 +2504,7 @@ void bdb_force_link(void)
 
 void zb_set_network_router_role(zb_uint32_t channel_mask)
 {
-  bdb_force_link();
+  bdb_force_link(ZB_TRUE);
 
   zb_set_network_router_role_with_mode(channel_mask, ZB_COMMISSIONING_BDB);
 }
@@ -2512,7 +2512,7 @@ void zb_set_network_router_role(zb_uint32_t channel_mask)
 
 void zb_set_network_router_role_ext(zb_channel_list_t channel_list)
 {
-  bdb_force_link();
+  bdb_force_link(ZB_TRUE);
   zb_set_nwk_role_mode_common_ext(ZB_NWK_DEVICE_TYPE_ROUTER,
                                   channel_list,
                                   ZB_COMMISSIONING_BDB);
@@ -2525,14 +2525,14 @@ void zb_set_network_router_role_ext(zb_channel_list_t channel_list)
 
 void zb_set_network_ed_role(zb_uint32_t channel_mask)
 {
-  bdb_force_link();
+  bdb_force_link(ZB_TRUE);
   zb_set_network_ed_role_with_mode(channel_mask, ZB_COMMISSIONING_BDB);
 }
 
 
 void zb_set_network_ed_role_ext(zb_channel_list_t channel_list)
 {
-  bdb_force_link();
+  bdb_force_link(ZB_TRUE);
   zb_set_nwk_role_mode_common_ext(ZB_NWK_DEVICE_TYPE_ED,
                                   channel_list,
                                   ZB_COMMISSIONING_BDB);

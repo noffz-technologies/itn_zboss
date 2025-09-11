@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "GDB Remote Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/shared/git/itn_platform/src/backend/Itn1200/zboss/application/zboss_wrapper/test_so",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "/shared/git/itn_platform/src/backend/Itn1200/zboss/application/zboss_wrapper",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerServerAddress": "192.168.40.221:1234",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "",
+            "logging": {
+                "moduleLoad": true,
+                "trace": true
+            }
+        }
+    ]
+}

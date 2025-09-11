@@ -2,7 +2,7 @@
 #/*
 # * ZBOSS Zigbee software protocol stack
 # *
-# * Copyright (c) 2012-2024 DSR Corporation, Denver CO, USA.
+# * Copyright (c) 2012-2022 DSR Corporation, Denver CO, USA.
 # * http://www.dsr-zboss.com
 # * http://www.dsr-corporation.com
 # * All rights reserved.
@@ -55,7 +55,7 @@ LD      =       ld
 # and ZB_TRACE_LEVEL (messages with layer > ZB_TRACE_LEVEL are unvisible).
 # Do not define ZB_TRACE_LEVEL to switch off trace.
 
-TRACE_DEFINES = -DZB_TRACE_LEVEL=4 -DZB_TRACE_MASK=0x0800
+TRACE_DEFINES = -DZB_TRACE_LEVEL=3 -DZB_TRACE_MASK=0xFF18FFFC
 
 CURRENT_DATE = $(shell date +"%Y%m%d")
 DATE_DEFINE = -DZB_BUILD_DATE="\"$(CURRENT_DATE)\""
@@ -94,6 +94,7 @@ PROF_FLAG=
 LINK_FLAGS += -Wl,--gc-sections
 
 LINK_BINARY = $(CC) $(PROF_FLAG) -o $@ $^ $(MEMDEBUG) -lpthread $(LINK_FLAGS) $(LIBS)
+LINK_BINARY_SHARED = $(CC) $(PROF_FLAG) -shared -o $@ $^ $(MEMDEBUG) -lpthread $(LINK_FLAGS) $(LIBS) 
 LINK_BINARY_ED = $(CC) $(PROF_FLAG) -o $@ $^ $(MEMDEBUG) -lpthread $(LINK_FLAGS) $(LIBS_ED)
 LINK_BINARY_GPCB = $(CC) $(PROF_FLAG) -o $@ $^ $(MEMDEBUG) -lpthread $(LINK_FLAGS) $(LIBS_GPCB)
 
@@ -103,6 +104,7 @@ LINK_BINARY_GPCB = $(CC) $(PROF_FLAG) -o $@ $^ $(MEMDEBUG) -lpthread $(LINK_FLAG
 
 OBJ_SUFFIX=.o
 EXE=
+SHARED_LIB=.so
 OBJS = ${SRCS:.c=.o}
 OBJS_ED = ${SRCS:.c=.ed.o}
 OBJS_ZGPD = ${SRCS:.c=.zgpd.o}

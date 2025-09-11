@@ -48,6 +48,7 @@
 
 #ifdef UNIX
 
+#define ZB_NSNG
 #define ZB_TRACE_FILE_ID 30011
 #include "zboss_api_core.h"
 #include "zb_osif_unix.h"
@@ -458,7 +459,7 @@ zb_int_t osif_ipc_wait_for_io(osif_wait_control_t wait_control, zb_int_t n_handl
   return ret;
 #else
   /* Use select() instead of poll() because it has us accuracy delay */
-
+  
   struct pollfd *pfd = (struct pollfd *)wait_control;
   fd_set readfds;
   fd_set writefds;
@@ -493,6 +494,7 @@ zb_int_t osif_ipc_wait_for_io(osif_wait_control_t wait_control, zb_int_t n_handl
     }
   }
 
+    
   /* select has better timer accuracy */
   ret = select(max_fd + 1, &readfds, &writefds, NULL, tvp);
 

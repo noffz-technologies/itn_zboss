@@ -514,7 +514,8 @@ static zb_ret_t zb_sched_mac_transport_iteration(void)
   }
   else
   {
-    ZB_TRANSPORT_BLOCK();
+    // NOFFZ: changed from "ZB_TRANSPORT_BLOCK()" to avoid waiting for IO and enable function calls from c#
+    ZB_TRANSPORT_NONBLOCK_ITERATION();
   }
 
   if (ZB_SCHEDULER_IS_STOP())

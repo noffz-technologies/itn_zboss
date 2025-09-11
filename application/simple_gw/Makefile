@@ -46,10 +46,17 @@ include $(BUILD_HOME)/Options
 
 SRCS1 = simple_gw.c ias_cie_addon.c
 OBJS1 = ${SRCS1:.c=.o}
+OBJS_SHARED1 = ${SRCS1:.c=.shared.o}
 
 $(BIN)simple_gw$(EXE) : $(OBJS1) $(LIBS)
 	$(LINK_BINARY)
 
+$(BIN)simple_gw$(SHARED_LIB) : $(OBJS_SHARED1) $(LIBS)
+	$(LINK_BINARY_SHARED)
+
 BINS = $(BIN)simple_gw$(EXE)
+SHARED_LIBS = $(BIN)simple_gw$(SHARED_LIB)
 
 all: $(BINS)
+
+shared: $(SHARED_LIBS)

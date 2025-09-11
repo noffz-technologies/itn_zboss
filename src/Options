@@ -1,7 +1,7 @@
 #/*
 # * ZBOSS Zigbee software protocol stack
 # *
-# * Copyright (c) 2012-2024 DSR Corporation, Denver CO, USA.
+# * Copyright (c) 2012-2022 DSR Corporation, Denver CO, USA.
 # * http://www.dsr-zboss.com
 # * http://www.dsr-corporation.com
 # * All rights reserved.
@@ -63,7 +63,7 @@ MOSQ_ARCH = host
 # and ZB_TRACE_LEVEL (messages with layer > ZB_TRACE_LEVEL are unvisible).
 # Do not define ZB_TRACE_LEVEL to switch off trace.
 
-TRACE_DEFINES = -DZB_TRACE_LEVEL=4 -DZB_TRACE_MASK=0x0800
+TRACE_DEFINES = -DZB_TRACE_LEVEL=3 -DZB_TRACE_MASK=0xFF18FFFC
 
 CURRENT_DATE = $(shell date +"%Y%m%d")
 DATE_DEFINE = -DZB_BUILD_DATE="\"$(CURRENT_DATE)\""
@@ -135,7 +135,7 @@ OBJS_ED = ${SRCS:.c=.ed.o}
 	$(CXX) -c $(CXXFLAGS) $(DEFINES) $(INCPATH) -o $@ $<
 
 .c.o:
-	$(CC) -c $(CFLAGS) $(DEFINES) $(INCPATH) -o $@ $<
+	$(CC) -c -fPIC $(CFLAGS) $(DEFINES) $(INCPATH) -o $@ $<
 
 .c.ed.o:
 	$(CC) -c $(CFLAGS) $(DEFINES) -DZB_ED_ROLE $(INCPATH) -o $@ $<

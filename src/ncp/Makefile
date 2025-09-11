@@ -126,7 +126,7 @@ SRCS = \
 #/* 07/30/2020 EE CR:MAJOR Trace setting is a debug stuff. Put it into Options, or vendor file, or whatever */
 # Pass LL trace into ZBOSS common trace file. FIXME: how to handle RPi .so lib?
 CFLAGS += -DZBNCP_USE_ZBOSS_TRACE=1
-CFLAGS += -DZBNCP_DEBUG=1
+CFLAGS += -DZBNCP_DEBUG=0
 CFLAGS += -DDISABLE_TRACE_INIT=1
 
 INCPATH += -I$(BUILD_HOME)/src/ncp -I$(BUILD_HOME)/src/ncp/high_level/common -I$(HOST_HL_HOME)

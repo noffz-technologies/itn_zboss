@@ -261,6 +261,7 @@ static void handle_read_event(zb_uint8_t event_mask)
     else
     {
       TRACE_MSG(TRACE_ERROR, "read error, errno: %d", (FMT__D, errno));
+      // NOFFZ TODO: figure out reason of error, handle it
       ZB_ERROR_RAISE(ZB_ERROR_SEVERITY_FATAL,
                      ERROR_CODE(ERROR_CATEGORY_SERIAL, ZB_ERROR_SERIAL_READ_FAILED),
                      NULL);

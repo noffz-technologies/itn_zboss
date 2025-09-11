@@ -142,14 +142,14 @@ static void bdb_formation_force_link(void)
 
 void zb_set_network_coordinator_role(zb_uint32_t channel_mask)
 {
-  bdb_force_link();
+  bdb_force_link(ZB_FALSE);
   bdb_formation_force_link();
   zb_set_network_coordinator_role_with_mode(channel_mask, ZB_COMMISSIONING_BDB);
 }
 
 void zb_set_network_coordinator_role_ext(zb_channel_list_t channel_list)
 {
-  bdb_force_link();
+  bdb_force_link(ZB_FALSE);
   bdb_formation_force_link();
   zb_set_nwk_role_mode_common_ext(ZB_NWK_DEVICE_TYPE_COORDINATOR,
                                   channel_list,

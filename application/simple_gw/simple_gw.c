@@ -72,7 +72,9 @@ static const zb_uint8_t g_key_nwk[16] = { 0xab, 0xcd, 0xef, 0x01, 0x23, 0x45, 0x
 /**
  * Declaring attributes for each cluster
  */
-
+void zdo_send_parent_annce_at_formation() {
+        printf("lol");
+};
 /* Switch config cluster attributes */
 zb_uint8_t attr_switch_type =
     ZB_ZCL_ON_OFF_SWITCH_CONFIGURATION_SWITCH_TYPE_TOGGLE;
@@ -129,6 +131,7 @@ ZB_DECLARE_SIMPLE_GW_CTX(simple_gw_ctx, simple_gw_ep);
 
 MAIN()
 {
+  printf("Main started...\r\n");
   ARGV_UNUSED;
 
   /* Global device context initialization */
@@ -1021,6 +1024,7 @@ void zboss_signal_handler(zb_uint8_t param)
       case ZB_BDB_SIGNAL_DEVICE_FIRST_START:
       case ZB_BDB_SIGNAL_DEVICE_REBOOT:
         TRACE_MSG(TRACE_APP1, "Device STARTED OK", (FMT__0));
+	printf("OK\r\n");
         zb_zcl_set_backward_comp_mode(ZB_ZCL_AUTO_MODE);
         zb_zcl_set_backward_compatible_statuses_mode(ZB_ZCL_STATUSES_ZCL8_MODE);
         bdb_start_top_level_commissioning(ZB_BDB_NETWORK_STEERING);
@@ -1061,7 +1065,7 @@ void zboss_signal_handler(zb_uint8_t param)
 #endif
 
       default:
-        TRACE_MSG(TRACE_APP1, "Unknown signal", (FMT__0));
+        TRACE_MSG(TRACE_APP1, "Unknown signal: %x", (FMT__D, sig));
     }
   }
   else if (sig == ZB_ZDO_SIGNAL_PRODUCTION_CONFIG_READY)

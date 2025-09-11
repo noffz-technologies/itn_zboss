@@ -2265,6 +2265,7 @@ typedef ZB_PACKED_PRE struct zb_zdo_mgmt_bind_resp_s
                            * Table to begin reporting for the BindingTableList.*/
   zb_uint8_t binding_table_list_count; /*!< Number of Binding Table
                                          * entries included within BindingTableList*/
+  void *records;
 }
 ZB_PACKED_STRUCT
 zb_zdo_mgmt_bind_resp_t;
@@ -2276,6 +2277,7 @@ typedef ZB_PACKED_PRE struct zb_zdo_binding_table_record_s
 {
   zb_ieee_addr_t src_address; /*!< The source IEEE address for the binding entry. */
   zb_uint8_t src_endp;        /*!< The source endpoint for the binding entry. */
+  zb_uint8_t pad;
   zb_uint16_t cluster_id;     /*!< The identifier of the cluster on the
                                *   source device that is bound to the
                                *   destination device. */

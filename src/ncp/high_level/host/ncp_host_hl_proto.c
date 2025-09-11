@@ -176,7 +176,7 @@ static void tx_ready_cb(void)
   zb_bool_t buf_blocking = ZB_FALSE;
   zb_ret_t ret = RET_ERROR;
 
-  TRACE_MSG(TRACE_TRANSPORT3, ">> tx_ready_cb",(FMT__0));
+  TRACE_MSG(TRACE_COMMON3, ">> tx_ready_cb",(FMT__0));
 
   g_ncp_host_ctx.tx_is_active = ZB_FALSE;
 
@@ -225,7 +225,7 @@ static void tx_ready_cb(void)
     g_ncp_host_ctx.tx_is_active = ZB_TRUE;
   }
 
-  TRACE_MSG(TRACE_TRANSPORT3, "<< tx_ready_cb",(FMT__0));
+  TRACE_MSG(TRACE_COMMON3, "<< tx_ready_cb",(FMT__0));
 }
 
 void handle_response_from_device(void* data, zb_uint16_t len)

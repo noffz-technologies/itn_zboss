@@ -173,7 +173,9 @@ static void startup_next_step(zb_uint8_t param)
   TRACE_MSG(TRACE_ZDO2, "current stage: %d", (FMT__D, startup_ctx.current_stage));
   TRACE_MSG(TRACE_ZDO2, "current step: %d", (FMT__D, startup_ctx.current_step));
 
-  ZB_ASSERT(startup_ctx.current_stage < STARTUP_STAGE_DONE);
+  // NOFFZ: overwritten to be able to use get_pan_id and get_extended_pan_id
+  if(startup_ctx.current_stage >= STARTUP_STAGE_DONE)
+    return;
 
   startup_ctx.current_step++;
   switch(startup_ctx.current_stage)

@@ -48,6 +48,7 @@
 
 #include <stdlib.h>
 #include <string.h>
+#include <unistd.h>
 
 #include <sys/stat.h>
 #include <fcntl.h>
@@ -89,6 +90,23 @@ const char* zb_mac_uart_path(void)
   return SERIAL_DEFAULT_PATH;
 }
 
+static int open_low(const char* filename)
+{
+  int fd = -1;
+  fd = open(filename, O_RDWR | O_NOCTTY | O_NONBLOCK);
+  if(fd > 1024)
+  {
+    do
+    {
+      TRACE_MSG(TRACE_ERROR, "fd too high: %d", (FMT__D, fd));
+      usleep(100000);
+      int new_fd = fcntl(fd, F_DUPFD, 3);
+      close(fd);
+      fd = new_fd;
+    } while(fd > 1024);
+  }
+  return fd;
+}
 
 static int open_serial_port(void)
 {
@@ -110,7 +128,7 @@ static int open_serial_port(void)
     do
     {
       errno = 0;
-      fd = open(filename, O_RDWR | O_NOCTTY | O_NONBLOCK);
+      fd = open_low(filename);
     } while (fd < 0 && errno == EINTR);
     if (fd == -1)
     {

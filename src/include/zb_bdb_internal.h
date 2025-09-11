@@ -296,7 +296,7 @@ void bdb_start_rejoin_recovery(zb_uint8_t param, zb_uint16_t user_param);
 
 zb_bool_t bdb_joined(void);
 
-void bdb_force_link(void);
+void bdb_force_link(bool tc);
 
 #endif /* ZB_BDB_MODE && !BDB_OLD */
 

@@ -94,6 +94,8 @@ constants etc.
  *
  */
 
+#define ZB_ZBOSS_DEINIT
+
 #ifdef ZB_ZGPD_ROLE
 #define ZB_ENABLE_ZGP_DIRECT
 #define ZB_ENABLE_ZGP_SECUR

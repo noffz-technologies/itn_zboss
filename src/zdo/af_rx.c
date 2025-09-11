@@ -90,11 +90,7 @@ zb_bool_t zb_af_is_confirm_for_zcl_frame(zb_uint8_t param)
   /* This check is needed to understand if ZCL (or some other) packet is confirmed.
      Assume, that if EP profile ID is HA or ZLL then ZCL packets only are sent over APS */
   if (ep_desc != NULL
-      && (ep_desc->profile_id == ZB_AF_HA_PROFILE_ID
-//FIXME:AEV - not sure about SE packets
-          || ep_desc->profile_id == ZB_AF_SE_PROFILE_ID
-          || ep_desc->profile_id == ZB_AF_ZLL_PROFILE_ID
-          || ep_desc->profile_id == ZB_AF_GP_PROFILE_ID))
+      && (ep_desc->profile_id != 0))
   {
     is_zcl_frame = ZB_TRUE;
   }

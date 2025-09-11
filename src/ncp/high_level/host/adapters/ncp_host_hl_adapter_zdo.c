@@ -693,7 +693,8 @@ void ncp_host_handle_zdo_ieee_addr_response(zb_ret_t status, zb_uint8_t ncp_tsn,
     if (status != RET_OK)
     {
       /* Pass only ZDO errors to the application layer */
-      if (ERROR_GET_CATEGORY(status) == ERROR_CATEGORY_ZDO)
+      /* NOFFZ: overwrite error handling to avoid assertion*/
+      if (true)
       {
         resp->status = ERROR_GET_CODE(status);
         ptr = zb_buf_initial_alloc(buf, sizeof(zb_zdo_ieee_addr_resp_t));
@@ -787,7 +788,8 @@ void ncp_host_handle_zdo_nwk_addr_response(zb_ret_t status, zb_uint8_t ncp_tsn,
     if (status != RET_OK)
     {
       /* Pass only ZDO errors to the application layer */
-      if (ERROR_GET_CATEGORY(status) == ERROR_CATEGORY_ZDO)
+      /* NOFFZ: overwrite error handling to avoid assertion*/
+      if (true)
       {
         resp->status = ERROR_GET_CODE(status);
         ptr = zb_buf_initial_alloc(buf, sizeof(zb_zdo_nwk_addr_resp_head_t));
@@ -848,7 +850,8 @@ void ncp_host_handle_zdo_power_descriptor_response(zb_ret_t status, zb_uint8_t n
     if (status != RET_OK)
     {
       /* Pass only ZDO errors to the application layer */
-      if (ERROR_GET_CATEGORY(status) == ERROR_CATEGORY_ZDO)
+      /* NOFFZ: overwrite error handling to avoid assertion*/
+      if (true)
       {
         resp->hdr.status = ERROR_GET_CODE(status);
       }
@@ -893,7 +896,8 @@ void ncp_host_handle_zdo_node_descriptor_response(zb_ret_t status, zb_uint8_t nc
     if (status != RET_OK)
     {
       /* Pass only ZDO errors to the application layer */
-      if (ERROR_GET_CATEGORY(status) == ERROR_CATEGORY_ZDO)
+      /* NOFFZ: overwrite error handling to avoid assertion*/
+      if (true)
       {
         resp->hdr.status = ERROR_GET_CODE(status);
       }
@@ -941,7 +945,8 @@ void ncp_host_handle_zdo_simple_descriptor_response(zb_ret_t status, zb_uint8_t 
     if (status != RET_OK)
     {
       /* Pass only ZDO errors to the application layer */
-      if (ERROR_GET_CATEGORY(status) == ERROR_CATEGORY_ZDO)
+      /* NOFFZ: overwrite error handling to avoid assertion*/
+      if (true)
       {
         resp->hdr.status = ERROR_GET_CODE(status);
       }
@@ -1009,7 +1014,8 @@ void ncp_host_handle_zdo_active_ep_response(zb_ret_t status, zb_uint8_t ncp_tsn,
     if (status != RET_OK)
     {
       /* Pass only ZDO errors to the application layer */
-      if (ERROR_GET_CATEGORY(status) == ERROR_CATEGORY_ZDO)
+      /* NOFFZ: overwrite error handling to avoid assertion*/
+      if (true)
       {
         resp->status = ERROR_GET_CODE(status);
       }
@@ -1068,7 +1074,8 @@ void ncp_host_handle_zdo_match_desc_response(zb_ret_t status, zb_uint8_t ncp_tsn
     if (status != RET_OK)
     {
       /* Pass only ZDO errors to the application layer */
-      if (ERROR_GET_CATEGORY(status) == ERROR_CATEGORY_ZDO)
+      /* NOFFZ: overwrite error handling to avoid assertion*/
+      if (true)
       {
         resp->status = ERROR_GET_CODE(status);
       }
@@ -1124,7 +1131,8 @@ void ncp_host_handle_zdo_diagnostics_get_stats_response(zb_ret_t status, zb_uint
     if (status != RET_OK)
     {
       /* Pass only ZDO errors to the application layer */
-      if (ERROR_GET_CATEGORY(status) == ERROR_CATEGORY_ZDO)
+      /* NOFFZ: overwrite error handling to avoid assertion*/
+      if (true)
       {
         buf_full_stats->status = ERROR_GET_CODE(status);
       }
@@ -1171,7 +1179,8 @@ void ncp_host_handle_zdo_system_server_discovery_response(zb_ret_t status, zb_ui
     if (status != RET_OK)
     {
       /* Pass only ZDO errors to the application layer */
-      if (ERROR_GET_CATEGORY(status) == ERROR_CATEGORY_ZDO)
+      /* NOFFZ: overwrite error handling to avoid assertion*/
+      if (true)
       {
         resp->status = ERROR_GET_CODE(status);
       }
@@ -1277,7 +1286,8 @@ void ncp_host_handle_zdo_bind_response(zb_ret_t status, zb_uint8_t ncp_tsn)
     if (status != RET_OK)
     {
       /* Pass only ZDO errors to the application layer */
-      if (ERROR_GET_CATEGORY(status) == ERROR_CATEGORY_ZDO)
+      /* NOFFZ: overwrite error handling to avoid assertion*/
+      if (true)
       {
         resp->status = ERROR_GET_CODE(status);
       }
@@ -1319,7 +1329,8 @@ void ncp_host_handle_zdo_unbind_response(zb_ret_t status, zb_uint8_t ncp_tsn)
     if (status != RET_OK)
     {
       /* Pass only ZDO errors to the application layer */
-      if (ERROR_GET_CATEGORY(status) == ERROR_CATEGORY_ZDO)
+      /* NOFFZ: overwrite error handling to avoid assertion*/
+      if (true)
       {
         resp->status = ERROR_GET_CODE(status);
       }
@@ -1361,7 +1372,8 @@ void ncp_host_handle_zdo_permit_joining_response(zb_ret_t status, zb_uint8_t ncp
     if (status != RET_OK)
     {
       /* Pass only ZDO errors to the application layer */
-      if (ERROR_GET_CATEGORY(status) == ERROR_CATEGORY_ZDO)
+      /* NOFFZ: overwrite error handling to avoid assertion*/
+      if (true)
       {
         resp->status = ERROR_GET_CODE(status);
       }
@@ -1405,7 +1417,8 @@ void ncp_host_handle_zdo_mgmt_leave_response(zb_ret_t status, zb_uint8_t ncp_tsn
     if (status != RET_OK)
     {
       /* Pass only ZDO errors to the application layer */
-      if (ERROR_GET_CATEGORY(status) == ERROR_CATEGORY_ZDO)
+      /* NOFFZ: overwrite error handling to avoid assertion*/
+      if (true)
       {
         resp->status = ERROR_GET_CODE(status);
       }
@@ -2001,7 +2014,8 @@ void ncp_host_handle_zdo_mgmt_bind_response(zb_ret_t status, zb_uint8_t ncp_tsn,
     if (status != RET_OK)
     {
       /* Pass only ZDO errors to the application layer */
-      if (ERROR_GET_CATEGORY(status) == ERROR_CATEGORY_ZDO)
+      /* NOFFZ: overwrite error handling to avoid assertion*/
+      if (true)
       {
         resp->status = ERROR_GET_CODE(status);
       }
@@ -2024,7 +2038,9 @@ void ncp_host_handle_zdo_mgmt_bind_response(zb_ret_t status, zb_uint8_t ncp_tsn,
       {
         resp_binding_table = (zb_zdo_binding_table_record_t*)zb_buf_alloc_right(buf,
                                                                                 sizeof(zb_zdo_binding_table_record_t) * resp->binding_table_list_count);
-
+        resp->records = resp_binding_table;
+                                                                                
+        TRACE_MSG(TRACE_TRANSPORT3, "binding table start: %p", (FMT__P, resp_binding_table));
         for (entry_index = 0; entry_index < resp->binding_table_list_count; entry_index++)
         {
           ncp_resp_binding_entry = &binding_table[entry_index];
@@ -2109,7 +2125,8 @@ void ncp_host_handle_zdo_mgmt_lqi_response(zb_ret_t status, zb_uint8_t ncp_tsn,
     if (status != RET_OK)
     {
       /* Pass only ZDO errors to the application layer */
-      if (ERROR_GET_CATEGORY(status) == ERROR_CATEGORY_ZDO)
+      /* NOFFZ: overwrite error handling to avoid assertion*/
+      if (true)
       {
         resp->status = ERROR_GET_CODE(status);
       }
@@ -2235,7 +2252,8 @@ void ncp_host_handle_zdo_mgmt_nwk_update_response(zb_ret_t status, zb_uint8_t nc
     if (status != RET_OK)
     {
       /* Pass only ZDO errors to the application layer */
-      if (ERROR_GET_CATEGORY(status) == ERROR_CATEGORY_ZDO)
+      /* NOFFZ: overwrite error handling to avoid assertion*/
+      if (true)
       {
         resp->status = ERROR_GET_CODE(status);
       }
