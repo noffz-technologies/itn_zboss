@@ -44,7 +44,7 @@
 BUILD_HOME=../..
 include $(BUILD_HOME)/Options
 
-SRCS1 = zboss_wrapper.c zboss_wrapper.c
+SRCS1 = zboss_wrapper.c
 OBJS1 = ${SRCS1:.c=.o}
 OBJS_SHARED1 = ${SRCS1:.c=.shared.o}
 

@@ -253,6 +253,7 @@ void zboss_signal_handler(zb_uint8_t param)
                 TRACE_MSG(TRACE_APP1, "Device leave", (FMT__0));
                 zb_zdo_signal_leave_indication_params_t *dev_leave_params = ZB_ZDO_SIGNAL_GET_PARAMS(sg_p, zb_zdo_signal_leave_indication_params_t);
                 callbacks.device_leave_indication(*dev_leave_params);
+                break;  
 
             case ZB_ZDO_SIGNAL_PRODUCTION_CONFIG_READY:
                 TRACE_MSG(TRACE_APP1, "Loading application production config", (FMT__0));
@@ -435,7 +436,7 @@ void secur_ic_list(zb_uint16_t index)
 void secur_ic_remove_all_cb(zb_uint8_t param)
 {
     zb_secur_ic_remove_all_resp_t *resp;
-    resp = ZB_BUF_GET_PARAM(param, zb_secur_ic_remove_all_resp_t);;
+    resp = ZB_BUF_GET_PARAM(param, zb_secur_ic_remove_all_resp_t);
     TRACE_MSG(TRACE_APP1, "secur_ic_remove_all status: %hd", (FMT__H, resp->status));
     callbacks.secur_ic_remove_all(resp->status);
     zb_buf_free(param);
@@ -481,7 +482,7 @@ void mgmt_leave_req(mgmt_leave_req_t req)
 }
 
 // mgmt_lqi_req
-mgmt_lqi_req_cb(zb_uint8_t param)
+void mgmt_lqi_req_cb(zb_uint8_t param)
 {
     zb_bufid_t buf = param;
     zb_zdo_mgmt_lqi_resp_t *resp = (zb_zdo_mgmt_lqi_resp_t*)zb_buf_begin(buf);
@@ -535,7 +536,7 @@ void nwk_addr_req(zb_zdo_nwk_addr_req_param_t req)
 }
 
 // active ep request
-active_ep_req_cb(zb_uint8_t param)
+void active_ep_req_cb(zb_uint8_t param)
 {
     zb_bufid_t buf = param;
     zb_zdo_ep_resp_t *resp = (zb_zdo_ep_resp_t*)zb_buf_begin(buf);

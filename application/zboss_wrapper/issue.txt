@@ -1,0 +1,720 @@
+5901 567cf0e0 2025-11-20 12:39:1 680/10444/010.445 zcl_reporting.c:729  [ZCL1] >> zb_zcl_reporting_timer_handler
+5902 567cf0e0 2025-11-20 12:39:1 680/10444/010.445 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5903 567cf0e0 2025-11-20 12:39:1 680/10444/010.445 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5904 567cf0e0 2025-11-20 12:39:1 680/10444/010.445 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5905 567cf0e0 2025-11-20 12:39:1 680/10444/010.445 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5906 567cf0e0 2025-11-20 12:39:1 680/10444/010.445 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5907 567cf0e0 2025-11-20 12:39:1 680/10444/010.445 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5908 567cf0e0 2025-11-20 12:39:1 680/10444/010.445 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5909 567cf0e0 2025-11-20 12:39:1 680/10444/010.445 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5910 567cf0e0 2025-11-20 12:39:1 680/10444/010.445 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5911 567cf0e0 2025-11-20 12:39:1 680/10444/010.445 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5912 567cf0e0 2025-11-20 12:39:1 680/10444/010.445 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5913 567cf0e0 2025-11-20 12:39:1 680/10444/010.445 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5914 567cf0e0 2025-11-20 12:39:1 680/10444/010.445 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5915 567cf0e0 2025-11-20 12:39:1 680/10444/010.445 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5916 567cf0e0 2025-11-20 12:39:1 680/10444/010.445 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5917 567cf0e0 2025-11-20 12:39:1 680/10444/010.445 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5918 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5919 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5920 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5921 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5922 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5923 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5924 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5925 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5926 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5927 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5928 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5929 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5930 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5931 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5932 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5933 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5934 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5935 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5936 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5937 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5938 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5939 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5940 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5941 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5942 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5943 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5944 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5945 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5946 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5947 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5948 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5949 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5950 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5951 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5952 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5953 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5954 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5955 567cf0e0 2025-11-20 12:39:1 680/10444/010.446 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5956 567cf0e0 2025-11-20 12:39:1 680/10444/010.447 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5957 567cf0e0 2025-11-20 12:39:1 680/10444/010.447 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5958 567cf0e0 2025-11-20 12:39:1 680/10444/010.447 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5959 567cf0e0 2025-11-20 12:39:1 680/10444/010.447 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5960 567cf0e0 2025-11-20 12:39:1 680/10444/010.447 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5961 567cf0e0 2025-11-20 12:39:1 680/10444/010.447 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5962 567cf0e0 2025-11-20 12:39:1 680/10444/010.447 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5963 567cf0e0 2025-11-20 12:39:1 680/10444/010.447 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5964 567cf0e0 2025-11-20 12:39:1 680/10444/010.447 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5965 567cf0e0 2025-11-20 12:39:1 680/10444/010.447 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5966 567cf0e0 2025-11-20 12:39:1 680/10444/010.447 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5967 567cf0e0 2025-11-20 12:39:1 680/10444/010.447 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5968 567cf0e0 2025-11-20 12:39:1 680/10444/010.447 zcl_reporting.c:751  [ZCL1] min_interval expired rep_info 0xa
+5969 567cf0e0 2025-11-20 12:39:1 680/10444/010.447 zcl_reporting.c:778  [ZCL1] Zero max_interval time, skip
+5970 567cf0e0 2025-11-20 12:39:1 680/10444/010.447 zcl_reporting.c:800  [ZCL1] 0 entries to report
+5971 567cf0e0 2025-11-20 12:39:1 680/10444/010.447 zcl_reporting.c:667  [ZCL1] >> zb_zcl_adjust_reporting_timer
+5972 567cf0e0 2025-11-20 12:39:1 680/10444/010.447 zcl_reporting.c:698  [ZCL1] reschedule 0, next_event_time 0
+5973 567cf0e0 2025-11-20 12:39:1 680/10444/010.447 zcl_reporting.c:717  [ZCL1] << zb_zcl_adjust_reporting_timer
+5974 567cf0e0 2025-11-20 12:39:1 680/10444/010.447 zcl_reporting.c:809  [ZCL1] << zb_zcl_reporting_timer_handler
+5975 567cf0e0 2025-11-20 12:39:2 733/11258/011.262 high_level/host/ncp_host_hl_proto.c:341      [TRANSPORT3] >> handle_packet_from_device: data 0xfffaac13c688, len 31
+5976 567cf0e0 2025-11-20 12:39:2 733/11258/011.262 high_level/host/ncp_host_hl_proto.c:354      [TRANSPORT3] version: 0x0, control: 0x2, call_id: 0x306
+5977 567cf0e0 2025-11-20 12:39:2 733/11258/011.262 high_level/host/ncp_host_hl_proto.c:292      [TRANSPORT3] >> handle_indication_from_device, data 0xfffaac13c688, len 31
+5978 567cf0e0 2025-11-20 12:39:2 733/11258/011.262 high_level/host/transport/ncp_host_hl_proto_aps.c:376        [TRANSPORT3] >> ncp_host_handle_aps_indication
+5979 567cf0e0 2025-11-20 12:39:2 733/11258/011.262 high_level/host/transport/ncp_host_hl_proto_aps.c:57 [TRANSPORT3] >> handle_apsde_data_indication
+5980 567cf0e0 2025-11-20 12:39:2 733/11258/011.262 high_level/host/transport/ncp_host_hl_proto_aps.c:59 [TRANSPORT3] >> parse handle_apsde_data_indication
+5981 567cf0e0 2025-11-20 12:39:2 733/11258/011.262 high_level/host/ncp_host_hl_buffers.c:73     [TRANSPORT3] >> ncp_host_hl_init_indication_body, hdr 0xfffaac13c688, len 31
+5982 567cf0e0 2025-11-20 12:39:2 733/11258/011.262 high_level/host/ncp_host_hl_buffers.c:82     [TRANSPORT3] << ncp_host_hl_init_indication_body, ret 0
+5983 567cf0e0 2025-11-20 12:39:2 733/11258/011.262 high_level/host/transport/ncp_host_hl_proto_aps.c:68 [TRANSPORT3]  params_len 21, data_len 3
+5984 567cf0e0 2025-11-20 12:39:2 733/11258/011.262 high_level/host/transport/ncp_host_hl_proto_aps.c:87 [TRANSPORT3] src_addr 0x0 dst_addr 0x9e72
+5985 567cf0e0 2025-11-20 12:39:2 733/11258/011.262 high_level/host/transport/ncp_host_hl_proto_aps.c:91 [TRANSPORT3] << parse handle_apsde_data_indication
+5986 567cf0e0 2025-11-20 12:39:2 733/11258/011.262 high_level/host/adapters/ncp_host_hl_adapter_aps.c:141       [TRANSPORT3] >> ncp_host_handle_apsde_data_indication
+5987 567cf0e0 2025-11-20 12:39:2 733/11258/011.262 af_rx.c:148  [ZDO1] >> zb_af_handle_zcl_frame, param 3
+5988 567cf0e0 2025-11-20 12:39:2 733/11258/011.262 zcl_common.c:583     [ZCL3] >>get_endpoint_desc 0xfffaac0c9e40 0xfffaac0c71f0 ep_id 1
+5989 567cf0e0 2025-11-20 12:39:2 733/11258/011.262 zcl_common.c:588     [ZCL3] device_ctx 0xfffaac0c71f0, ep_count 1
+5990 567cf0e0 2025-11-20 12:39:2 733/11258/011.262 zcl_common.c:590     [ZCL3] ep_id 1
+5991 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 zcl_common.c:600     [ZCL3] <<get_endpoint_desc desc 0xfffab8e47300
+5992 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 zcl_common.c:1038    [ZCL2] > zb_zcl_is_target_endpoint: ep_desc 0xfffab8e47300, profile_id 0x104
+5993 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 zcl_common.c:1098    [ZCL2] < zb_zcl_is_target_endpoint, match 1
+5994 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 af_rx.c:183  [ZDO1] << zb_af_handle_zcl_frame, processed 1
+5995 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 high_level/host/adapters/ncp_host_hl_adapter_aps.c:168       [TRANSPORT3] << ncp_host_handle_apsde_data_indication
+5996 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 high_level/host/transport/ncp_host_hl_proto_aps.c:95 [TRANSPORT3] << handle_apsde_data_indication
+5997 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 high_level/host/transport/ncp_host_hl_proto_aps.c:387        [TRANSPORT3] << ncp_host_handle_aps_indication
+5998 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 high_level/host/ncp_host_hl_proto.c:334      [TRANSPORT3] << handle_indication_from_device
+5999 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 high_level/host/ncp_host_hl_proto.c:373      [TRANSPORT3] << handle_packet_from_device
+6000 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 zcl_common.c:1576    [ZCL1] > zb_zcl_process_device_command 3
+6001 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 zcl_main.c:214       [ZCL1] >> zb_zcl_parse_header: param 3 h 0x0 sz 3, dst endp 1
+6002 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 zcl_main.c:282       [ZCL1] << zb_zcl_parse_header ret = 0
+6003 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 zcl_common.c:1525    [ZCL1] > zb_zcl_process_parsed_zcl_cmd 3
+6004 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 zcl_common.c:1305    [ZCL2] > ep_process_zcl_cmd, param 3
+6005 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 zcl_common.c:583     [ZCL3] >>get_endpoint_desc 0xfffaac0c9e40 0xfffaac0c71f0 ep_id 1
+6006 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 zcl_common.c:588     [ZCL3] device_ctx 0xfffaac0c71f0, ep_count 1
+6007 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 zcl_common.c:590     [ZCL3] ep_id 1
+6008 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 zcl_common.c:600     [ZCL3] <<get_endpoint_desc desc 0xfffab8e47300
+6009 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 zcl_common.c:583     [ZCL3] >>get_endpoint_desc 0xfffaac0c9e40 0xfffaac0c71f0 ep_id 1
+6010 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 zcl_common.c:588     [ZCL3] device_ctx 0xfffaac0c71f0, ep_count 1
+6011 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 zcl_common.c:590     [ZCL3] ep_id 1
+6012 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 zcl_common.c:600     [ZCL3] <<get_endpoint_desc desc 0xfffab8e47300
+6013 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 zcl_common.c:1612    [ZCL3] >>get_cluster_desc ep_desc 0xfffab8e47300, cluster_id 0x0 cluster_role 1
+6014 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 zcl_common.c:1627    [ZCL3] <<get_cluster_desc cluster_desc 0xfffab8e471a8
+6015 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 zcl_general_commands.c:533   [ZCL2] >> zb_zcl_get_attr_desc_manuf_a ep 1, cluster_id 0x0, attr_id 0x12, manuf_code 0xffff
+6016 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 zcl_common.c:583     [ZCL3] >>get_endpoint_desc 0xfffaac0c9e40 0xfffaac0c71f0 ep_id 1
+6017 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 zcl_common.c:588     [ZCL3] device_ctx 0xfffaac0c71f0, ep_count 1
+6018 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 zcl_common.c:590     [ZCL3] ep_id 1
+6019 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 zcl_common.c:600     [ZCL3] <<get_endpoint_desc desc 0xfffab8e47300
+6020 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 zcl_common.c:1612    [ZCL3] >>get_cluster_desc ep_desc 0xfffab8e47300, cluster_id 0x0 cluster_role 1
+6021 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 zcl_common.c:1627    [ZCL3] <<get_cluster_desc cluster_desc 0xfffab8e471a8
+6022 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 zcl_general_commands.c:489   [ZCL3] >> zb_zcl_get_attr_desc_manuf cluster_desc 0xfffab8e471a8, attr_id 0x12, manuf_code 0xffff, cluster id: 0x0
+6023 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x0: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6024 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x1: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6025 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x2: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6026 567cf0e0 2025-11-20 12:39:2 733/11258/011.263 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x3: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6027 567cf0e0 2025-11-20 12:39:2 733/11258/011.264 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x4: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6028 567cf0e0 2025-11-20 12:39:2 733/11258/011.264 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x5: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6029 567cf0e0 2025-11-20 12:39:2 733/11258/011.264 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x6: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6030 567cf0e0 2025-11-20 12:39:2 733/11258/011.264 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x7: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6031 567cf0e0 2025-11-20 12:39:2 733/11258/011.264 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x8: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6032 567cf0e0 2025-11-20 12:39:2 733/11258/011.264 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x9: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6033 567cf0e0 2025-11-20 12:39:2 733/11258/011.264 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0xa: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6034 567cf0e0 2025-11-20 12:39:2 733/11258/011.264 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0xb: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6035 567cf0e0 2025-11-20 12:39:2 733/11258/011.264 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x4000: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6036 567cf0e0 2025-11-20 12:39:2 733/11258/011.264 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0xfffd: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6037 567cf0e0 2025-11-20 12:39:2 733/11258/011.264 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x0: is_attr_ids_match 0, is_manuf_codes_match 0, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6038 567cf0e0 2025-11-20 12:39:2 733/11258/011.264 zcl_general_commands.c:517   [ZCL3] << zb_zcl_get_attr_desc_manuf, attr_desc (nil)
+6039 567cf0e0 2025-11-20 12:39:2 733/11258/011.264 zcl_general_commands.c:544   [ZCL2] << zb_zcl_get_attr_desc_manuf_a ret (nil)
+6040 567cf0e0 2025-11-20 12:39:2 733/11258/011.264 zcl_basic_commands.c:138     [ZCL1] > zb_zcl_check_is_device_enabled ep_id 1, cmd_id 1, cluster_id 6, is_common_command 0
+6041 567cf0e0 2025-11-20 12:39:2 733/11258/011.264 zcl_basic_commands.c:163     [ZCL1] < zb_zcl_check_is_device_enabled ret 1
+6042 567cf0e0 2025-11-20 12:39:2 733/11258/011.264 zcl_common.c:1415    [ZCL2] ep 1, dev handler 0xfffaac033100
+6043 567cf0e0 2025-11-20 12:39:2 733/11258/011.264 zboss_wrapper.c:332  [APP1] Command received: ep_id 1, cluster_id 6, cmd_id 1 is_common_command 0, disable_default_response 1, is_manuf_specific 0
+6044 567cf0e0 2025-11-20 12:39:2 733/11258/011.264 zcl_main.c:126       [ZCL1] >> zb_zcl_handle param 3
+6045 567cf0e0 2025-11-20 12:39:2 733/11258/011.264 zcl_main.c:131       [ZCL2] f type 0 cmd 1
+6046 567cf0e0 2025-11-20 12:39:2 733/11258/011.264 zcl_common.c:1777    [ZCL1] >> zb_zcl_check_accept_command 3
+6047 567cf0e0 2025-11-20 12:39:2 733/11258/011.264 zcl_common.c:583     [ZCL3] >>get_endpoint_desc 0xfffaac0c9e40 0xfffaac0c71f0 ep_id 1
+6048 567cf0e0 2025-11-20 12:39:2 733/11258/011.264 zcl_common.c:588     [ZCL3] device_ctx 0xfffaac0c71f0, ep_count 1
+6049 567cf0e0 2025-11-20 12:39:2 733/11258/011.264 zcl_common.c:590     [ZCL3] ep_id 1
+6050 567cf0e0 2025-11-20 12:39:2 733/11258/011.264 zcl_common.c:600     [ZCL3] <<get_endpoint_desc desc 0xfffab8e47300
+6051 567cf0e0 2025-11-20 12:39:2 733/11258/011.264 zcl_common.c:1612    [ZCL3] >>get_cluster_desc ep_desc 0xfffab8e47300, cluster_id 0x6 cluster_role 1
+6052 567cf0e0 2025-11-20 12:39:2 733/11258/011.264 zcl_common.c:1627    [ZCL3] <<get_cluster_desc cluster_desc 0xfffab8e47204
+6053 567cf0e0 2025-11-20 12:39:2 733/11258/011.264 zcl_common.c:1927    [ZCL3] > dump_zcl_header at 0x7f75
+6054 567cf0e0 2025-11-20 12:39:2 733/11258/011.264 zcl_common.c:1931    [ZCL3] src: address 0x0, endpoint 1
+6055 567cf0e0 2025-11-20 12:39:2 733/11258/011.264 zcl_common.c:1937    [ZCL3] dst: address 0x9e72, endpoint 1
+6056 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_common.c:1941    [ZCL3] profile 0x104, cluster 0x6, cmdID 0x1
+6057 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_common.c:1945    [ZCL3] command direction flag (0 - to server): 0
+6058 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_common.c:1949    [ZCL3] sequence number: 0, is common: 0
+6059 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_common.c:1953    [ZCL3] manufacturer specific 0, manuf specific data 0
+6060 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_common.c:1954    [ZCL3] def resp disabled: 1
+6061 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_common.c:1955    [ZCL3] < dump_zcl_header
+6062 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_common.c:1787    [ZCL2] manuf_spec 0
+6063 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_common.c:1809    [ZCL1] check cluster, cluster_desc 0xfffab8e47204 cluster_desc->attr_desc_list 0xfffab8e46608
+6064 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_common.c:1813    [ZCL1] cmd_direction 0, cluster role 1
+6065 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_common.c:1842    [ZCL1] << zb_zcl_check_accept_command 0
+6066 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_main.c:581       [ZCL1] > zb_zcl_handle_specific_commands param 3
+6067 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_main.c:349       [ZCL1] >> zb_zcl_get_cluster_handler: cluster_id 0x6 cluster_role 1
+6068 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_main.c:368       [ZCL1] << zb_zcl_get_cluster_handler ret (nil)
+6069 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_main.c:597       [ZCL1] Cluster 0x0006 was not processed
+6070 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_main.c:602       [ZCL1] < zb_zcl_handle_specific_commands processed 0
+6071 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_main.c:148       [ZCL1] command is not processed
+6072 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_main.c:186       [ZCL1] << zb_zcl_handle, ret 129
+6073 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_common.c:2144    [ZCL1] >> zb_zcl_finish_and_send_packet_common param 3 delay 0
+6074 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_common.c:583     [ZCL3] >>get_endpoint_desc 0xfffaac0c9e40 0xfffaac0c71f0 ep_id 1
+6075 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_common.c:588     [ZCL3] device_ctx 0xfffaac0c71f0, ep_count 1
+6076 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_common.c:590     [ZCL3] ep_id 1
+6077 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_common.c:600     [ZCL3] <<get_endpoint_desc desc 0xfffab8e47300
+6078 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_common.c:1612    [ZCL3] >>get_cluster_desc ep_desc 0xfffab8e47300, cluster_id 0x0 cluster_role 1
+6079 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_common.c:1627    [ZCL3] <<get_cluster_desc cluster_desc 0xfffab8e471a8
+6080 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_general_commands.c:533   [ZCL2] >> zb_zcl_get_attr_desc_manuf_a ep 1, cluster_id 0x0, attr_id 0x12, manuf_code 0xffff
+6081 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_common.c:583     [ZCL3] >>get_endpoint_desc 0xfffaac0c9e40 0xfffaac0c71f0 ep_id 1
+6082 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_common.c:588     [ZCL3] device_ctx 0xfffaac0c71f0, ep_count 1
+6083 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_common.c:590     [ZCL3] ep_id 1
+6084 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_common.c:600     [ZCL3] <<get_endpoint_desc desc 0xfffab8e47300
+6085 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_common.c:1612    [ZCL3] >>get_cluster_desc ep_desc 0xfffab8e47300, cluster_id 0x0 cluster_role 1
+6086 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_common.c:1627    [ZCL3] <<get_cluster_desc cluster_desc 0xfffab8e471a8
+6087 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_general_commands.c:489   [ZCL3] >> zb_zcl_get_attr_desc_manuf cluster_desc 0xfffab8e471a8, attr_id 0x12, manuf_code 0xffff, cluster id: 0x0
+6088 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x0: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6089 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x1: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6090 567cf0e0 2025-11-20 12:39:2 733/11258/011.265 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x2: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6091 567cf0e0 2025-11-20 12:39:2 733/11258/011.266 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x3: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6092 567cf0e0 2025-11-20 12:39:2 733/11258/011.266 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x4: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6093 567cf0e0 2025-11-20 12:39:2 733/11258/011.266 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x5: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6094 567cf0e0 2025-11-20 12:39:2 733/11258/011.266 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x6: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6095 567cf0e0 2025-11-20 12:39:2 733/11258/011.266 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x7: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6096 567cf0e0 2025-11-20 12:39:2 733/11258/011.266 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x8: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6097 567cf0e0 2025-11-20 12:39:2 733/11258/011.266 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x9: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6098 567cf0e0 2025-11-20 12:39:2 733/11258/011.266 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0xa: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6099 567cf0e0 2025-11-20 12:39:2 733/11258/011.266 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0xb: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6100 567cf0e0 2025-11-20 12:39:2 733/11258/011.266 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x4000: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6101 567cf0e0 2025-11-20 12:39:2 733/11258/011.266 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0xfffd: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6102 567cf0e0 2025-11-20 12:39:2 733/11258/011.266 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x0: is_attr_ids_match 0, is_manuf_codes_match 0, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6103 567cf0e0 2025-11-20 12:39:2 733/11258/011.266 zcl_general_commands.c:517   [ZCL3] << zb_zcl_get_attr_desc_manuf, attr_desc (nil)
+6104 567cf0e0 2025-11-20 12:39:2 733/11258/011.266 zcl_general_commands.c:544   [ZCL2] << zb_zcl_get_attr_desc_manuf_a ret (nil)
+6105 567cf0e0 2025-11-20 12:39:2 733/11258/011.266 zcl_basic_commands.c:138     [ZCL1] > zb_zcl_check_is_device_enabled ep_id 1, cmd_id 11, cluster_id 6, is_common_command 1
+6106 567cf0e0 2025-11-20 12:39:2 733/11258/011.266 zcl_basic_commands.c:163     [ZCL1] < zb_zcl_check_is_device_enabled ret 1
+6107 567cf0e0 2025-11-20 12:39:2 733/11258/011.266 zcl_common.c:2177    [ZCL3] extending packet to 5 bytes
+6108 567cf0e0 2025-11-20 12:39:2 733/11258/011.266 zcl_common.c:1707    [ZCL3] >>get_profile_id_by_endpoint endpoint_id = 1
+6109 567cf0e0 2025-11-20 12:39:2 733/11258/011.266 zcl_common.c:1726    [ZCL1] <<get_profile_id_by_endpoint profile_id = 0x104
+6110 567cf0e0 2025-11-20 12:39:2 733/11258/011.266 zcl_common.c:1293    [ZCL1] cluster_needs_aps_encryption: ep 1 cluster 0x6 res 0
+6111 567cf0e0 2025-11-20 12:39:2 733/11258/011.266 zcl_common.c:2384    [ZCL2] ZCL (out): cluster: 0x6, APS security required: no
+6112 567cf0e0 2025-11-20 12:39:2 733/11258/011.266 zcl_common.c:648     [ZCL1] >> zb_zcl_register_cb param 3, cb (nil)
+6113 567cf0e0 2025-11-20 12:39:2 733/11258/011.266 zcl_common.c:679     [ZCL1] << zb_zcl_register_cb ret 0
+6114 567cf0e0 2025-11-20 12:39:2 733/11258/011.266 zcl_common.c:1917    [ZCL1] ZCL packet: buf 0x3, ref 3, len 5
+6115 567cf0e0 2025-11-20 12:39:2 733/11258/011.266 zcl_common.c:1918    [ZCL1] FC: 0x18 TSN: 0x0 CMD: 0xb
+6116 567cf0e0 2025-11-20 12:39:2 733/11258/011.266 zcl_common.c:1457    [ZCL2] < ep_process_zcl_cmd
+6117 567cf0e0 2025-11-20 12:39:2 733/11258/011.266 zcl_common.c:1566    [ZCL1] < zb_zcl_process_parsed_zcl_cmd
+6118 567cf0e0 2025-11-20 12:39:2 733/11258/011.266 zcl_common.c:1601    [ZCL1] < zb_zcl_process_device_command
+6119 567cf0e0 2025-11-20 12:39:2 733/11258/011.266 high_level/host/adapters/ncp_host_hl_adapter_aps.c:517       [TRANSPORT2] >> zb_apsde_data_request
+6120 567cf0e0 2025-11-20 12:39:2 733/11258/011.266 high_level/host/transport/ncp_host_hl_proto_aps.c:397        [TRANSPORT2] >> ncp_host_apsde_data_request_transport
+6121 567cf0e0 2025-11-20 12:39:2 733/11258/011.266 high_level/host/ncp_host_hl_proto.c:501      [TRANSPORT3] >> ncp_host_get_buf_for_nonblocking_request, call_id 0x301
+6122 567cf0e0 2025-11-20 12:39:2 733/11258/011.267 high_level/host/ncp_host_hl_buffers.c:112    [TRANSPORT3] >> ncp_host_hl_init_request_body, hdr 0xfffaac0cca94
+6123 567cf0e0 2025-11-20 12:39:2 733/11258/011.267 high_level/host/ncp_host_hl_buffers.c:122    [TRANSPORT3] << ncp_host_hl_init_request_body, ret 0
+6124 567cf0e0 2025-11-20 12:39:2 733/11258/011.267 high_level/host/ncp_host_hl_proto.c:511      [TRANSPORT3] << ncp_host_get_buf_for_nonblocking_request, ret 0, tsn 39
+6125 567cf0e0 2025-11-20 12:39:2 733/11258/011.267 high_level/host/transport/ncp_host_hl_proto_aps.c:402        [TRANSPORT2] param_len 21
+6126 567cf0e0 2025-11-20 12:39:2 733/11258/011.267 high_level/host/transport/ncp_host_hl_proto_aps.c:405        [TRANSPORT2] data_len 5
+6127 567cf0e0 2025-11-20 12:39:2 733/11258/011.267 high_level/host/transport/ncp_host_hl_proto_aps.c:412        [TRANSPORT2] req->dst_addr.addr_short 0x0
+6128 567cf0e0 2025-11-20 12:39:2 733/11258/011.267 high_level/host/transport/ncp_host_hl_proto_aps.c:422        [TRANSPORT2] req->profileid 260
+6129 567cf0e0 2025-11-20 12:39:2 733/11258/011.267 high_level/host/transport/ncp_host_hl_proto_aps.c:425        [TRANSPORT2] req->clusterid 6
+6130 567cf0e0 2025-11-20 12:39:2 733/11258/011.267 high_level/host/transport/ncp_host_hl_proto_aps.c:428        [TRANSPORT2] req->dst_endpoint 1
+6131 567cf0e0 2025-11-20 12:39:2 733/11258/011.267 high_level/host/transport/ncp_host_hl_proto_aps.c:431        [TRANSPORT2] req->src_endpoint 1
+6132 567cf0e0 2025-11-20 12:39:2 733/11258/011.267 high_level/host/transport/ncp_host_hl_proto_aps.c:434        [TRANSPORT2] req->radius 0
+6133 567cf0e0 2025-11-20 12:39:2 733/11258/011.267 high_level/host/transport/ncp_host_hl_proto_aps.c:437        [TRANSPORT2] req->addr_mode 0x2
+6134 567cf0e0 2025-11-20 12:39:2 733/11258/011.267 high_level/host/transport/ncp_host_hl_proto_aps.c:440        [TRANSPORT2] req->tx_options 4
+6135 567cf0e0 2025-11-20 12:39:2 733/11258/011.267 high_level/host/transport/ncp_host_hl_proto_aps.c:443        [TRANSPORT2] req->use_alias 0
+6136 567cf0e0 2025-11-20 12:39:2 733/11258/011.267 high_level/host/transport/ncp_host_hl_proto_aps.c:446        [TRANSPORT2] req->alias_src_addr 0
+6137 567cf0e0 2025-11-20 12:39:2 733/11258/011.267 high_level/host/transport/ncp_host_hl_proto_aps.c:449        [TRANSPORT2] req->alias_seq_num 0
+6138 567cf0e0 2025-11-20 12:39:2 733/11258/011.267 high_level/host/ncp_host_hl_proto.c:520      [TRANSPORT3] >> ncp_host_hl_send_packet, buf_id 1
+6139 567cf0e0 2025-11-20 12:39:2 733/11258/011.267 high_level/host/ncp_host_hl_proto.c:549      [TRANSPORT3]     send packet without queueing, is_blocking 0
+6140 567cf0e0 2025-11-20 12:39:2 733/11258/011.267 high_level/host/ncp_host_hl_proto.c:110      [TRANSPORT3] TX buffer free: buf_id 1
+6141 567cf0e0 2025-11-20 12:39:2 733/11258/011.267 high_level/host/ncp_host_hl_proto.c:570      [TRANSPORT3] << ncp_host_hl_send_packet, ret 0
+6142 567cf0e0 2025-11-20 12:39:2 733/11258/011.267 high_level/host/transport/ncp_host_hl_proto_aps.c:456        [TRANSPORT2] << ncp_host_apsde_data_request_transport, ret 0
+6143 567cf0e0 2025-11-20 12:39:2 733/11258/011.267 high_level/host/adapters/ncp_host_hl_adapter_aps.c:566       [TRANSPORT2] data request command is processed, ret 0, tsn 39
+6144 567cf0e0 2025-11-20 12:39:2 733/11258/011.267 high_level/host/adapters/ncp_host_hl_adapter_aps.c:568       [TRANSPORT2] << zb_apsde_data_request
+6145 567cf0e0 2025-11-20 12:39:2 735/11289/011.289 high_level/host/ncp_host_hl_proto.c:341      [TRANSPORT3] >> handle_packet_from_device: data 0xfffaac13c688, len 22
+6146 567cf0e0 2025-11-20 12:39:2 735/11289/011.289 high_level/host/ncp_host_hl_proto.c:354      [TRANSPORT3] version: 0x0, control: 0x1, call_id: 0x301
+6147 567cf0e0 2025-11-20 12:39:2 735/11289/011.289 high_level/host/ncp_host_hl_proto.c:235      [TRANSPORT3] >> handle_response_from_device, data 0xfffaac13c688, len 22
+6148 567cf0e0 2025-11-20 12:39:2 735/11289/011.289 high_level/host/ncp_host_hl_proto.c:238      [TRANSPORT3] response header: tsn 39, status category: 0, status code: 0
+6149 567cf0e0 2025-11-20 12:39:2 735/11289/011.289 high_level/host/transport/ncp_host_hl_proto_aps.c:321        [TRANSPORT3] >> ncp_host_handle_aps_response
+6150 567cf0e0 2025-11-20 12:39:2 735/11289/011.289 high_level/host/transport/ncp_host_hl_proto_aps.c:108        [TRANSPORT3] >> handle_apsde_data_response, status_code 0
+6151 567cf0e0 2025-11-20 12:39:2 735/11289/011.289 high_level/host/transport/ncp_host_hl_proto_aps.c:110        [TRANSPORT3] >> parse handle_apsde_data_response
+6152 567cf0e0 2025-11-20 12:39:2 735/11289/011.289 high_level/host/ncp_host_hl_buffers.c:93     [TRANSPORT3] >> ncp_host_hl_init_response_body, hdr 0xfffaac13c688, len 22
+6153 567cf0e0 2025-11-20 12:39:2 735/11289/011.289 high_level/host/ncp_host_hl_buffers.c:102    [TRANSPORT3] << ncp_host_hl_init_response_body, ret 0
+6154 567cf0e0 2025-11-20 12:39:2 735/11289/011.289 high_level/host/transport/ncp_host_hl_proto_aps.c:116        [TRANSPORT3] temp address ab:cd:ef:00:00:00:00:00
+6155 567cf0e0 2025-11-20 12:39:2 735/11289/011.289 high_level/host/transport/ncp_host_hl_proto_aps.c:121        [TRANSPORT3] conf.dst_endpoint 1, conf.src_endpoint 1
+6156 567cf0e0 2025-11-20 12:39:2 735/11289/011.289 high_level/host/transport/ncp_host_hl_proto_aps.c:124        [TRANSPORT3] conf.tx_time 0
+6157 567cf0e0 2025-11-20 12:39:2 735/11289/011.289 high_level/host/transport/ncp_host_hl_proto_aps.c:127        [TRANSPORT3] addr_mode 0x3
+6158 567cf0e0 2025-11-20 12:39:2 735/11289/011.289 high_level/host/transport/ncp_host_hl_proto_aps.c:140        [TRANSPORT3] conf.dst_addr.addr_long ab:cd:ef:00:00:00:00:00
+6159 567cf0e0 2025-11-20 12:39:2 735/11289/011.290 high_level/host/transport/ncp_host_hl_proto_aps.c:146        [TRANSPORT3] << parse handle_apsde_data_response
+6160 567cf0e0 2025-11-20 12:39:2 735/11289/011.290 high_level/host/adapters/ncp_host_hl_adapter_aps.c:197       [TRANSPORT3] >> ncp_host_handle_apsde_data_response, tsn 39
+6161 567cf0e0 2025-11-20 12:39:2 735/11289/011.290 high_level/host/adapters/ncp_host_hl_adapter_aps.c:209       [TRANSPORT3]   addr_mode 3
+6162 567cf0e0 2025-11-20 12:39:2 735/11289/011.290 high_level/host/adapters/ncp_host_hl_adapter_aps.c:210       [TRANSPORT3]   src_endpoint 1
+6163 567cf0e0 2025-11-20 12:39:2 735/11289/011.290 high_level/host/adapters/ncp_host_hl_adapter_aps.c:211       [TRANSPORT3]   dst_endpoint 1
+6164 567cf0e0 2025-11-20 12:39:2 735/11289/011.290 high_level/host/adapters/ncp_host_hl_adapter_aps.c:174       [TRANSPORT3] >> apsde_data_acknowledged: param 3 status: 0
+6165 567cf0e0 2025-11-20 12:39:2 735/11289/011.290 af_rx.c:75   [ZDO2] >> zb_af_is_confirm_for_zcl_frame, param 3
+6166 567cf0e0 2025-11-20 12:39:2 735/11289/011.290 zcl_common.c:583     [ZCL3] >>get_endpoint_desc 0xfffaac0c9e40 0xfffaac0c71f0 ep_id 1
+6167 567cf0e0 2025-11-20 12:39:2 735/11289/011.290 zcl_common.c:588     [ZCL3] device_ctx 0xfffaac0c71f0, ep_count 1
+6168 567cf0e0 2025-11-20 12:39:2 735/11289/011.290 zcl_common.c:590     [ZCL3] ep_id 1
+6169 567cf0e0 2025-11-20 12:39:2 735/11289/011.290 zcl_common.c:600     [ZCL3] <<get_endpoint_desc desc 0xfffab8e47300
+6170 567cf0e0 2025-11-20 12:39:2 735/11289/011.290 af_rx.c:99   [ZDO2] << zb_af_is_confirm_for_zcl_frame, is_zcl_frame 1
+6171 567cf0e0 2025-11-20 12:39:2 735/11289/011.290 af_rx.c:109  [ZDO2] >> zb_af_handle_zcl_frame_data_confirm, param 3
+6172 567cf0e0 2025-11-20 12:39:2 735/11289/011.290 af_rx.c:132  [APS3] confirm: received address 0x0
+6173 567cf0e0 2025-11-20 12:39:2 735/11289/011.290 zcl_common.c:694     [ZCL1] >> zb_zcl_ack_callback 3
+6174 567cf0e0 2025-11-20 12:39:2 735/11289/011.290 zcl_common.c:703     [ZCL2] found callback (nil)
+6175 567cf0e0 2025-11-20 12:39:2 735/11289/011.290 zcl_common.c:727     [ZCL1] << zb_zcl_ack_callback ret -28
+6176 567cf0e0 2025-11-20 12:39:2 735/11289/011.290 af_rx.c:139  [ZDO2] << zb_af_handle_zcl_frame_data_confirm
+6177 567cf0e0 2025-11-20 12:39:2 735/11289/011.290 high_level/host/adapters/ncp_host_hl_adapter_aps.c:189       [TRANSPORT3] << apsde_data_acknowledged
+6178 567cf0e0 2025-11-20 12:39:2 735/11289/011.290 high_level/host/adapters/ncp_host_hl_adapter_aps.c:215       [TRANSPORT3] << ncp_host_handle_apsde_data_response
+6179 567cf0e0 2025-11-20 12:39:2 735/11289/011.290 high_level/host/transport/ncp_host_hl_proto_aps.c:150        [TRANSPORT3] << handle_apsde_data_response
+6180 567cf0e0 2025-11-20 12:39:2 735/11289/011.290 high_level/host/transport/ncp_host_hl_proto_aps.c:369        [TRANSPORT3] << ncp_host_handle_aps_response
+6181 567cf0e0 2025-11-20 12:39:2 735/11289/011.290 high_level/host/ncp_host_hl_proto.c:283      [TRANSPORT3] << handle_response_from_device
+6182 567cf0e0 2025-11-20 12:39:2 735/11289/011.290 high_level/host/ncp_host_hl_proto.c:373      [TRANSPORT3] << handle_packet_from_device
+6183 577ef0e0 2025-11-20 12:39:2 740/11366/011.381 zcl_reporting.c:1434 [ZCL1] >> zb_zcl_mark_attr_for_reporting_manuf, ep 1, cluster_id 0x6, attr_id 0x0, manuf_code 0xffff
+6184 577ef0e0 2025-11-20 12:39:2 740/11366/011.382 zcl_reporting.c:839  [ZCL1] >> zb_zcl_find_reporting_info_manuf, ep 1, cluster 6, attr_id 0x0, manuf_code 0xffff, cluster_role 1
+6185 577ef0e0 2025-11-20 12:39:2 740/11366/011.382 zcl_reporting.c:847  [ZCL1] >>  ZCL_CTX().device_ctx->rep_info_count = 37
+6186 577ef0e0 2025-11-20 12:39:2 740/11366/011.382 zcl_reporting.c:849  [ZCL1] >>  rep_info = 0xfffa3c0d6830
+6187 577ef0e0 2025-11-20 12:39:2 740/11366/011.382 zcl_reporting.c:853  [ZCL1] >>  rep_info->ep 1, rep_info->cluster_id 0, rep_info->attr_id 0x0, manuf_code 0xffff, cluster_role 1, rep_flags 5)
+6188 577ef0e0 2025-11-20 12:39:2 740/11366/011.382 zcl_reporting.c:854  [ZCL1]     max_interval 0 min_interval 5
+6189 577ef0e0 2025-11-20 12:39:2 741/11381/011.382 zcl_reporting.c:853  [ZCL1] >>  rep_info->ep 1, rep_info->cluster_id 0, rep_info->attr_id 0x1, manuf_code 0xffff, cluster_role 1, rep_flags 5)
+6190 577ef0e0 2025-11-20 12:39:2 741/11381/011.382 zcl_reporting.c:854  [ZCL1]     max_interval 0 min_interval 5
+6191 577ef0e0 2025-11-20 12:39:2 741/11381/011.382 zcl_reporting.c:853  [ZCL1] >>  rep_info->ep 1, rep_info->cluster_id 0, rep_info->attr_id 0x2, manuf_code 0xffff, cluster_role 1, rep_flags 5)
+6192 577ef0e0 2025-11-20 12:39:2 741/11381/011.382 zcl_reporting.c:854  [ZCL1]     max_interval 0 min_interval 5
+6193 577ef0e0 2025-11-20 12:39:2 741/11381/011.382 zcl_reporting.c:853  [ZCL1] >>  rep_info->ep 1, rep_info->cluster_id 0, rep_info->attr_id 0x3, manuf_code 0xffff, cluster_role 1, rep_flags 5)
+6194 577ef0e0 2025-11-20 12:39:2 741/11381/011.382 zcl_reporting.c:854  [ZCL1]     max_interval 0 min_interval 5
+6195 577ef0e0 2025-11-20 12:39:2 741/11381/011.382 zcl_reporting.c:853  [ZCL1] >>  rep_info->ep 1, rep_info->cluster_id 0, rep_info->attr_id 0x4, manuf_code 0xffff, cluster_role 1, rep_flags 5)
+6196 577ef0e0 2025-11-20 12:39:2 741/11381/011.382 zcl_reporting.c:854  [ZCL1]     max_interval 0 min_interval 5
+6197 577ef0e0 2025-11-20 12:39:2 741/11381/011.382 zcl_reporting.c:853  [ZCL1] >>  rep_info->ep 1, rep_info->cluster_id 0, rep_info->attr_id 0x5, manuf_code 0xffff, cluster_role 1, rep_flags 5)
+6198 577ef0e0 2025-11-20 12:39:2 741/11381/011.382 zcl_reporting.c:854  [ZCL1]     max_interval 0 min_interval 5
+6199 577ef0e0 2025-11-20 12:39:2 741/11381/011.382 zcl_reporting.c:853  [ZCL1] >>  rep_info->ep 1, rep_info->cluster_id 0, rep_info->attr_id 0x6, manuf_code 0xffff, cluster_role 1, rep_flags 5)
+6200 577ef0e0 2025-11-20 12:39:2 741/11381/011.382 zcl_reporting.c:854  [ZCL1]     max_interval 0 min_interval 5
+6201 577ef0e0 2025-11-20 12:39:2 741/11381/011.382 zcl_reporting.c:853  [ZCL1] >>  rep_info->ep 1, rep_info->cluster_id 0, rep_info->attr_id 0x7, manuf_code 0xffff, cluster_role 1, rep_flags 5)
+6202 577ef0e0 2025-11-20 12:39:2 741/11381/011.382 zcl_reporting.c:854  [ZCL1]     max_interval 0 min_interval 5
+6203 577ef0e0 2025-11-20 12:39:2 741/11381/011.382 zcl_reporting.c:853  [ZCL1] >>  rep_info->ep 1, rep_info->cluster_id 0, rep_info->attr_id 0x8, manuf_code 0xffff, cluster_role 1, rep_flags 5)
+6204 577ef0e0 2025-11-20 12:39:2 741/11381/011.382 zcl_reporting.c:854  [ZCL1]     max_interval 0 min_interval 5
+6205 577ef0e0 2025-11-20 12:39:2 741/11381/011.382 zcl_reporting.c:853  [ZCL1] >>  rep_info->ep 1, rep_info->cluster_id 0, rep_info->attr_id 0x9, manuf_code 0xffff, cluster_role 1, rep_flags 5)
+6206 577ef0e0 2025-11-20 12:39:2 741/11381/011.382 zcl_reporting.c:854  [ZCL1]     max_interval 0 min_interval 5
+6207 577ef0e0 2025-11-20 12:39:2 741/11381/011.382 zcl_reporting.c:853  [ZCL1] >>  rep_info->ep 1, rep_info->cluster_id 0, rep_info->attr_id 0xa, manuf_code 0xffff, cluster_role 1, rep_flags 5)
+6208 577ef0e0 2025-11-20 12:39:2 741/11381/011.382 zcl_reporting.c:854  [ZCL1]     max_interval 0 min_interval 5
+6209 577ef0e0 2025-11-20 12:39:2 741/11381/011.382 zcl_reporting.c:853  [ZCL1] >>  rep_info->ep 1, rep_info->cluster_id 0, rep_info->attr_id 0xb, manuf_code 0xffff, cluster_role 1, rep_flags 5)
+6210 577ef0e0 2025-11-20 12:39:2 741/11381/011.382 zcl_reporting.c:854  [ZCL1]     max_interval 0 min_interval 5
+6211 577ef0e0 2025-11-20 12:39:2 741/11381/011.382 zcl_reporting.c:853  [ZCL1] >>  rep_info->ep 1, rep_info->cluster_id 0, rep_info->attr_id 0x4000, manuf_code 0xffff, cluster_role 1, rep_flags 5)
+6212 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_reporting.c:854  [ZCL1]     max_interval 0 min_interval 5
+6213 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_reporting.c:853  [ZCL1] >>  rep_info->ep 0, rep_info->cluster_id 0, rep_info->attr_id 0x0, manuf_code 0x0, cluster_role 0, rep_flags 97)
+6214 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_reporting.c:854  [ZCL1]     max_interval 15375 min_interval 960
+6215 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_reporting.c:853  [ZCL1] >>  rep_info->ep 1, rep_info->cluster_id 0, rep_info->attr_id 0xfffd, manuf_code 0xffff, cluster_role 1, rep_flags 5)
+6216 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_reporting.c:854  [ZCL1]     max_interval 0 min_interval 5
+6217 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_reporting.c:853  [ZCL1] >>  rep_info->ep 54, rep_info->cluster_id 13365, rep_info->attr_id 0x0, manuf_code 0x0, cluster_role 50, rep_flags 161)
+6218 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_reporting.c:854  [ZCL1]     max_interval 15366 min_interval 1616
+6219 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_reporting.c:853  [ZCL1] >>  rep_info->ep 1, rep_info->cluster_id 3, rep_info->attr_id 0x0, manuf_code 0xffff, cluster_role 1, rep_flags 5)
+6220 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_reporting.c:854  [ZCL1]     max_interval 0 min_interval 5
+6221 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_reporting.c:853  [ZCL1] >>  rep_info->ep 1, rep_info->cluster_id 3, rep_info->attr_id 0xfffd, manuf_code 0xffff, cluster_role 1, rep_flags 5)
+6222 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_reporting.c:854  [ZCL1]     max_interval 0 min_interval 5
+6223 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_reporting.c:853  [ZCL1] >>  rep_info->ep 1, rep_info->cluster_id 4, rep_info->attr_id 0x0, manuf_code 0xffff, cluster_role 1, rep_flags 5)
+6224 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_reporting.c:854  [ZCL1]     max_interval 0 min_interval 5
+6225 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_reporting.c:853  [ZCL1] >>  rep_info->ep 1, rep_info->cluster_id 4, rep_info->attr_id 0xfffd, manuf_code 0xffff, cluster_role 1, rep_flags 5)
+6226 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_reporting.c:854  [ZCL1]     max_interval 0 min_interval 5
+6227 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_reporting.c:853  [ZCL1] >>  rep_info->ep 1, rep_info->cluster_id 5, rep_info->attr_id 0x0, manuf_code 0xffff, cluster_role 1, rep_flags 5)
+6228 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_reporting.c:854  [ZCL1]     max_interval 0 min_interval 5
+6229 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_reporting.c:853  [ZCL1] >>  rep_info->ep 1, rep_info->cluster_id 5, rep_info->attr_id 0x1, manuf_code 0xffff, cluster_role 1, rep_flags 5)
+6230 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_reporting.c:854  [ZCL1]     max_interval 0 min_interval 5
+6231 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_reporting.c:853  [ZCL1] >>  rep_info->ep 1, rep_info->cluster_id 5, rep_info->attr_id 0x2, manuf_code 0xffff, cluster_role 1, rep_flags 5)
+6232 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_reporting.c:854  [ZCL1]     max_interval 0 min_interval 5
+6233 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_reporting.c:853  [ZCL1] >>  rep_info->ep 1, rep_info->cluster_id 5, rep_info->attr_id 0x3, manuf_code 0xffff, cluster_role 1, rep_flags 5)
+6234 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_reporting.c:854  [ZCL1]     max_interval 0 min_interval 5
+6235 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_reporting.c:853  [ZCL1] >>  rep_info->ep 1, rep_info->cluster_id 5, rep_info->attr_id 0x4, manuf_code 0xffff, cluster_role 1, rep_flags 5)
+6236 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_reporting.c:854  [ZCL1]     max_interval 0 min_interval 5
+6237 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_reporting.c:853  [ZCL1] >>  rep_info->ep 1, rep_info->cluster_id 5, rep_info->attr_id 0xfffd, manuf_code 0xffff, cluster_role 1, rep_flags 5)
+6238 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_reporting.c:854  [ZCL1]     max_interval 0 min_interval 5
+6239 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_reporting.c:853  [ZCL1] >>  rep_info->ep 1, rep_info->cluster_id 6, rep_info->attr_id 0x0, manuf_code 0xffff, cluster_role 1, rep_flags 5)
+6240 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_reporting.c:854  [ZCL1]     max_interval 0 min_interval 5
+6241 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_reporting.c:864  [ZCL1] an entry is found! i == 26, max 37
+6242 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_reporting.c:884  [ZCL2] << zb_zcl_find_reporting_info_manuf 0xfffa3c0d6d10
+6243 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_reporting.c:1440 [ZCL3] min_inerval 5, flags 5
+6244 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_reporting.c:1268 [ZCL1] >> check_delta_value 0xfffa3c0d6d10
+6245 577ef0e0 2025-11-20 12:39:2 741/11381/011.383 zcl_general_commands.c:533   [ZCL2] >> zb_zcl_get_attr_desc_manuf_a ep 1, cluster_id 0x6, attr_id 0x0, manuf_code 0xffff
+6246 577ef0e0 2025-11-20 12:39:2 741/11381/011.384 zcl_common.c:583     [ZCL3] >>get_endpoint_desc 0xfffaac0c9e40 0xfffaac0c71f0 ep_id 1
+6247 577ef0e0 2025-11-20 12:39:2 741/11381/011.384 zcl_common.c:588     [ZCL3] device_ctx 0xfffaac0c71f0, ep_count 1
+6248 577ef0e0 2025-11-20 12:39:2 741/11381/011.384 zcl_common.c:590     [ZCL3] ep_id 1
+6249 577ef0e0 2025-11-20 12:39:2 741/11381/011.384 zcl_common.c:600     [ZCL3] <<get_endpoint_desc desc 0xfffab8e47300
+6250 577ef0e0 2025-11-20 12:39:2 741/11381/011.384 zcl_common.c:1612    [ZCL3] >>get_cluster_desc ep_desc 0xfffab8e47300, cluster_id 0x6 cluster_role 1
+6251 577ef0e0 2025-11-20 12:39:2 741/11381/011.384 zcl_common.c:1627    [ZCL3] <<get_cluster_desc cluster_desc 0xfffab8e47204
+6252 577ef0e0 2025-11-20 12:39:2 741/11381/011.384 zcl_general_commands.c:489   [ZCL3] >> zb_zcl_get_attr_desc_manuf cluster_desc 0xfffab8e47204, attr_id 0x0, manuf_code 0xffff, cluster id: 0x6
+6253 577ef0e0 2025-11-20 12:39:2 741/11381/011.384 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x0: is_attr_ids_match 1, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6254 577ef0e0 2025-11-20 12:39:2 741/11381/011.384 zcl_general_commands.c:504   [ZCL3] attribute is found
+6255 577ef0e0 2025-11-20 12:39:2 741/11381/011.384 zcl_general_commands.c:517   [ZCL3] << zb_zcl_get_attr_desc_manuf, attr_desc 0xfffab8e46608
+6256 577ef0e0 2025-11-20 12:39:2 741/11381/011.384 zcl_general_commands.c:544   [ZCL2] << zb_zcl_get_attr_desc_manuf_a ret 0xfffab8e46608
+6257 577ef0e0 2025-11-20 12:39:2 741/11381/011.384 zcl_common.c:547     [ZCL1] zb_zcl_is_analog_data_type 16, is analog 0
+6258 577ef0e0 2025-11-20 12:39:2 741/11381/011.384 zcl_reporting.c:1407 [ZCL3] discrete/unknown analog attr type, check if value was changed or not
+6259 577ef0e0 2025-11-20 12:39:2 741/11381/011.384 zcl_common.c:232     [ZCL1] >> zb_zcl_get_attribute_size: attr_type 0x10 attr_value 0xfffab8e46078
+6260 577ef0e0 2025-11-20 12:39:2 741/11381/011.384 zcl_common.c:362     [ZCL1] << zb_zcl_get_attribute_size: result 1
+6261 577ef0e0 2025-11-20 12:39:2 741/11381/011.384 zcl_reporting.c:1411 [ZCL1] Value was changed, report it
+6262 577ef0e0 2025-11-20 12:39:2 741/11381/011.384 zcl_reporting.c:1416 [ZCL1] << check_delta_value ret 0
+6263 577ef0e0 2025-11-20 12:39:2 741/11381/011.384 zcl_reporting.c:1447 [ZCL3] set reporting is needed
+6264 577ef0e0 2025-11-20 12:39:2 741/11381/011.384 zcl_reporting.c:1459 [ZCL3] schedule reporting
+6265 577ef0e0 2025-11-20 12:39:2 741/11381/011.384 zcl_reporting.c:667  [ZCL1] >> zb_zcl_adjust_reporting_timer
+6266 577ef0e0 2025-11-20 12:39:2 741/11381/011.384 zcl_reporting.c:698  [ZCL1] reschedule 0, next_event_time 0
+6267 577ef0e0 2025-11-20 12:39:2 741/11381/011.384 zcl_reporting.c:717  [ZCL1] << zb_zcl_adjust_reporting_timer
+6268 577ef0e0 2025-11-20 12:39:2 741/11381/011.384 zcl_reporting.c:1478 [ZCL1] << zb_zcl_mark_attr_for_reporting_manuf
+6269 567cf0e0 2025-11-20 12:39:2 741/11381/011.385 zcl_reporting.c:932  [ZCL1] >> zb_zcl_report_attr buf_ref 2
+6270 567cf0e0 2025-11-20 12:39:2 741/11381/011.385 zcl_reporting.c:943  [ZCL1] rep_info 0xfffa3c0d6830, flags 5
+6271 567cf0e0 2025-11-20 12:39:2 741/11381/011.385 zcl_reporting.c:944  [ZCL1] attr_id 0x0, manuf_code 0xffff
+6272 567cf0e0 2025-11-20 12:39:2 741/11381/011.385 zcl_reporting.c:943  [ZCL1] rep_info 0xfffa3c0d6860, flags 5
+6273 567cf0e0 2025-11-20 12:39:2 741/11381/011.385 zcl_reporting.c:944  [ZCL1] attr_id 0x1, manuf_code 0xffff
+6274 567cf0e0 2025-11-20 12:39:2 741/11381/011.385 zcl_reporting.c:943  [ZCL1] rep_info 0xfffa3c0d6890, flags 5
+6275 567cf0e0 2025-11-20 12:39:2 741/11381/011.385 zcl_reporting.c:944  [ZCL1] attr_id 0x2, manuf_code 0xffff
+6276 567cf0e0 2025-11-20 12:39:2 741/11381/011.385 zcl_reporting.c:943  [ZCL1] rep_info 0xfffa3c0d68c0, flags 5
+6277 567cf0e0 2025-11-20 12:39:2 741/11381/011.385 zcl_reporting.c:944  [ZCL1] attr_id 0x3, manuf_code 0xffff
+6278 567cf0e0 2025-11-20 12:39:2 741/11381/011.385 zcl_reporting.c:943  [ZCL1] rep_info 0xfffa3c0d68f0, flags 5
+6279 567cf0e0 2025-11-20 12:39:2 741/11381/011.385 zcl_reporting.c:944  [ZCL1] attr_id 0x4, manuf_code 0xffff
+6280 567cf0e0 2025-11-20 12:39:2 741/11381/011.385 zcl_reporting.c:943  [ZCL1] rep_info 0xfffa3c0d6920, flags 5
+6281 567cf0e0 2025-11-20 12:39:2 741/11381/011.385 zcl_reporting.c:944  [ZCL1] attr_id 0x5, manuf_code 0xffff
+6282 567cf0e0 2025-11-20 12:39:2 741/11381/011.386 zcl_reporting.c:943  [ZCL1] rep_info 0xfffa3c0d6950, flags 5
+6283 567cf0e0 2025-11-20 12:39:2 741/11381/011.386 zcl_reporting.c:944  [ZCL1] attr_id 0x6, manuf_code 0xffff
+6284 567cf0e0 2025-11-20 12:39:2 741/11381/011.386 zcl_reporting.c:943  [ZCL1] rep_info 0xfffa3c0d6980, flags 5
+6285 567cf0e0 2025-11-20 12:39:2 741/11381/011.386 zcl_reporting.c:944  [ZCL1] attr_id 0x7, manuf_code 0xffff
+6286 567cf0e0 2025-11-20 12:39:2 741/11381/011.386 zcl_reporting.c:943  [ZCL1] rep_info 0xfffa3c0d69b0, flags 5
+6287 567cf0e0 2025-11-20 12:39:2 741/11381/011.386 zcl_reporting.c:944  [ZCL1] attr_id 0x8, manuf_code 0xffff
+6288 567cf0e0 2025-11-20 12:39:2 741/11381/011.386 zcl_reporting.c:943  [ZCL1] rep_info 0xfffa3c0d69e0, flags 5
+6289 567cf0e0 2025-11-20 12:39:2 741/11381/011.386 zcl_reporting.c:944  [ZCL1] attr_id 0x9, manuf_code 0xffff
+6290 567cf0e0 2025-11-20 12:39:2 741/11381/011.386 zcl_reporting.c:943  [ZCL1] rep_info 0xfffa3c0d6a10, flags 5
+6291 567cf0e0 2025-11-20 12:39:2 741/11381/011.386 zcl_reporting.c:944  [ZCL1] attr_id 0xa, manuf_code 0xffff
+6292 567cf0e0 2025-11-20 12:39:2 741/11381/011.386 zcl_reporting.c:943  [ZCL1] rep_info 0xfffa3c0d6a40, flags 5
+6293 567cf0e0 2025-11-20 12:39:2 741/11381/011.386 zcl_reporting.c:944  [ZCL1] attr_id 0xb, manuf_code 0xffff
+6294 567cf0e0 2025-11-20 12:39:2 741/11381/011.386 zcl_reporting.c:943  [ZCL1] rep_info 0xfffa3c0d6a70, flags 5
+6295 567cf0e0 2025-11-20 12:39:2 741/11381/011.386 zcl_reporting.c:944  [ZCL1] attr_id 0x4000, manuf_code 0xffff
+6296 567cf0e0 2025-11-20 12:39:2 741/11381/011.386 zcl_reporting.c:943  [ZCL1] rep_info 0xfffa3c0d6aa0, flags 61
+6297 567cf0e0 2025-11-20 12:39:2 741/11381/011.386 zcl_reporting.c:944  [ZCL1] attr_id 0x0, manuf_code 0x0
+6298 567cf0e0 2025-11-20 12:39:2 741/11381/011.386 zcl_reporting.c:943  [ZCL1] rep_info 0xfffa3c0d6ad0, flags 5
+6299 567cf0e0 2025-11-20 12:39:2 741/11381/011.386 zcl_reporting.c:944  [ZCL1] attr_id 0xfffd, manuf_code 0xffff
+6300 567cf0e0 2025-11-20 12:39:2 741/11381/011.386 zcl_reporting.c:943  [ZCL1] rep_info 0xfffa3c0d6b00, flags a1
+6301 567cf0e0 2025-11-20 12:39:2 741/11381/011.386 zcl_reporting.c:944  [ZCL1] attr_id 0x0, manuf_code 0x0
+6302 567cf0e0 2025-11-20 12:39:2 741/11381/011.386 zcl_reporting.c:943  [ZCL1] rep_info 0xfffa3c0d6b30, flags 5
+6303 567cf0e0 2025-11-20 12:39:2 741/11381/011.386 zcl_reporting.c:944  [ZCL1] attr_id 0x0, manuf_code 0xffff
+6304 567cf0e0 2025-11-20 12:39:2 741/11381/011.386 zcl_reporting.c:943  [ZCL1] rep_info 0xfffa3c0d6b60, flags 5
+6305 567cf0e0 2025-11-20 12:39:2 741/11381/011.386 zcl_reporting.c:944  [ZCL1] attr_id 0xfffd, manuf_code 0xffff
+6306 567cf0e0 2025-11-20 12:39:2 741/11381/011.387 zcl_reporting.c:943  [ZCL1] rep_info 0xfffa3c0d6b90, flags 5
+6307 567cf0e0 2025-11-20 12:39:2 741/11381/011.387 zcl_reporting.c:944  [ZCL1] attr_id 0x0, manuf_code 0xffff
+6308 567cf0e0 2025-11-20 12:39:2 741/11381/011.387 zcl_reporting.c:943  [ZCL1] rep_info 0xfffa3c0d6bc0, flags 5
+6309 567cf0e0 2025-11-20 12:39:2 741/11381/011.387 zcl_reporting.c:944  [ZCL1] attr_id 0xfffd, manuf_code 0xffff
+6310 567cf0e0 2025-11-20 12:39:2 741/11381/011.387 zcl_reporting.c:943  [ZCL1] rep_info 0xfffa3c0d6bf0, flags 5
+6311 567cf0e0 2025-11-20 12:39:2 741/11381/011.387 zcl_reporting.c:944  [ZCL1] attr_id 0x0, manuf_code 0xffff
+6312 567cf0e0 2025-11-20 12:39:2 741/11381/011.387 zcl_reporting.c:943  [ZCL1] rep_info 0xfffa3c0d6c20, flags 5
+6313 567cf0e0 2025-11-20 12:39:2 741/11381/011.387 zcl_reporting.c:944  [ZCL1] attr_id 0x1, manuf_code 0xffff
+6314 567cf0e0 2025-11-20 12:39:2 741/11381/011.387 zcl_reporting.c:943  [ZCL1] rep_info 0xfffa3c0d6c50, flags 5
+6315 567cf0e0 2025-11-20 12:39:2 741/11381/011.387 zcl_reporting.c:944  [ZCL1] attr_id 0x2, manuf_code 0xffff
+6316 567cf0e0 2025-11-20 12:39:2 741/11381/011.387 zcl_reporting.c:943  [ZCL1] rep_info 0xfffa3c0d6c80, flags 5
+6317 567cf0e0 2025-11-20 12:39:2 741/11381/011.387 zcl_reporting.c:944  [ZCL1] attr_id 0x3, manuf_code 0xffff
+6318 567cf0e0 2025-11-20 12:39:2 741/11381/011.387 zcl_reporting.c:943  [ZCL1] rep_info 0xfffa3c0d6cb0, flags 5
+6319 567cf0e0 2025-11-20 12:39:2 741/11381/011.387 zcl_reporting.c:944  [ZCL1] attr_id 0x4, manuf_code 0xffff
+6320 567cf0e0 2025-11-20 12:39:2 741/11381/011.387 zcl_reporting.c:943  [ZCL1] rep_info 0xfffa3c0d6ce0, flags 5
+6321 567cf0e0 2025-11-20 12:39:2 741/11381/011.387 zcl_reporting.c:944  [ZCL1] attr_id 0xfffd, manuf_code 0xffff
+6322 567cf0e0 2025-11-20 12:39:2 741/11381/011.387 zcl_reporting.c:943  [ZCL1] rep_info 0xfffa3c0d6d10, flags 7
+6323 567cf0e0 2025-11-20 12:39:2 741/11381/011.387 zcl_reporting.c:944  [ZCL1] attr_id 0x0, manuf_code 0xffff
+6324 567cf0e0 2025-11-20 12:39:2 741/11381/011.387 zcl_reporting.c:952  [ZCL1] buffer is free, send report
+6325 567cf0e0 2025-11-20 12:39:2 741/11381/011.387 zcl_general_commands.c:1348  [ZCL1] >> zb_zcl_send_report_attr_command rep_info 0xfffa3c0d6d10, param 2
+6326 567cf0e0 2025-11-20 12:39:2 741/11381/011.387 zcl_general_commands.c:533   [ZCL2] >> zb_zcl_get_attr_desc_manuf_a ep 1, cluster_id 0x6, attr_id 0x0, manuf_code 0xffff
+6327 567cf0e0 2025-11-20 12:39:2 741/11381/011.388 zcl_common.c:583     [ZCL3] >>get_endpoint_desc 0xfffaac0c9e40 0xfffaac0c71f0 ep_id 1
+6328 567cf0e0 2025-11-20 12:39:2 741/11381/011.388 zcl_common.c:588     [ZCL3] device_ctx 0xfffaac0c71f0, ep_count 1
+6329 567cf0e0 2025-11-20 12:39:2 741/11381/011.388 zcl_common.c:590     [ZCL3] ep_id 1
+6330 567cf0e0 2025-11-20 12:39:2 741/11381/011.388 zcl_common.c:600     [ZCL3] <<get_endpoint_desc desc 0xfffab8e47300
+6331 567cf0e0 2025-11-20 12:39:2 741/11381/011.388 zcl_common.c:1612    [ZCL3] >>get_cluster_desc ep_desc 0xfffab8e47300, cluster_id 0x6 cluster_role 1
+6332 567cf0e0 2025-11-20 12:39:2 741/11381/011.388 zcl_common.c:1627    [ZCL3] <<get_cluster_desc cluster_desc 0xfffab8e47204
+6333 567cf0e0 2025-11-20 12:39:2 741/11381/011.388 zcl_general_commands.c:489   [ZCL3] >> zb_zcl_get_attr_desc_manuf cluster_desc 0xfffab8e47204, attr_id 0x0, manuf_code 0xffff, cluster id: 0x6
+6334 567cf0e0 2025-11-20 12:39:2 741/11381/011.388 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x0: is_attr_ids_match 1, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6335 567cf0e0 2025-11-20 12:39:2 741/11381/011.388 zcl_general_commands.c:504   [ZCL3] attribute is found
+6336 567cf0e0 2025-11-20 12:39:2 741/11381/011.388 zcl_general_commands.c:517   [ZCL3] << zb_zcl_get_attr_desc_manuf, attr_desc 0xfffab8e46608
+6337 567cf0e0 2025-11-20 12:39:2 741/11381/011.388 zcl_general_commands.c:544   [ZCL2] << zb_zcl_get_attr_desc_manuf_a ret 0xfffab8e46608
+6338 567cf0e0 2025-11-20 12:39:2 741/11381/011.388 zcl_general_commands.c:533   [ZCL2] >> zb_zcl_get_attr_desc_manuf_a ep 1, cluster_id 0x6, attr_id 0x0, manuf_code 0xffff
+6339 567cf0e0 2025-11-20 12:39:2 741/11381/011.388 zcl_common.c:583     [ZCL3] >>get_endpoint_desc 0xfffaac0c9e40 0xfffaac0c71f0 ep_id 1
+6340 567cf0e0 2025-11-20 12:39:2 741/11381/011.388 zcl_common.c:588     [ZCL3] device_ctx 0xfffaac0c71f0, ep_count 1
+6341 567cf0e0 2025-11-20 12:39:2 741/11381/011.388 zcl_common.c:590     [ZCL3] ep_id 1
+6342 567cf0e0 2025-11-20 12:39:2 741/11381/011.388 zcl_common.c:600     [ZCL3] <<get_endpoint_desc desc 0xfffab8e47300
+6343 567cf0e0 2025-11-20 12:39:2 741/11381/011.388 zcl_common.c:1612    [ZCL3] >>get_cluster_desc ep_desc 0xfffab8e47300, cluster_id 0x6 cluster_role 1
+6344 567cf0e0 2025-11-20 12:39:2 741/11381/011.388 zcl_common.c:1627    [ZCL3] <<get_cluster_desc cluster_desc 0xfffab8e47204
+6345 567cf0e0 2025-11-20 12:39:2 741/11381/011.388 zcl_general_commands.c:489   [ZCL3] >> zb_zcl_get_attr_desc_manuf cluster_desc 0xfffab8e47204, attr_id 0x0, manuf_code 0xffff, cluster id: 0x6
+6346 567cf0e0 2025-11-20 12:39:2 741/11381/011.388 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x0: is_attr_ids_match 1, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6347 567cf0e0 2025-11-20 12:39:2 741/11381/011.388 zcl_general_commands.c:504   [ZCL3] attribute is found
+6348 567cf0e0 2025-11-20 12:39:2 741/11381/011.389 zcl_general_commands.c:517   [ZCL3] << zb_zcl_get_attr_desc_manuf, attr_desc 0xfffab8e46608
+6349 567cf0e0 2025-11-20 12:39:2 741/11381/011.389 zcl_general_commands.c:544   [ZCL2] << zb_zcl_get_attr_desc_manuf_a ret 0xfffab8e46608
+6350 567cf0e0 2025-11-20 12:39:2 741/11381/011.389 zcl_general_commands.c:1394  [ZCL3] attr_desc 0xfffab8e46608
+6351 567cf0e0 2025-11-20 12:39:2 741/11381/011.389 zcl_general_commands.c:1402  [ZCL3] bytes_avail 79
+6352 567cf0e0 2025-11-20 12:39:2 741/11381/011.389 zcl_general_commands.c:1407  [ZCL3] attribute: id 0x0, type 0x10, manuf_code 0xffff
+6353 567cf0e0 2025-11-20 12:39:2 741/11381/011.389 zcl_common.c:232     [ZCL1] >> zb_zcl_get_attribute_size: attr_type 0x10 attr_value 0xfffab8e46078
+6354 567cf0e0 2025-11-20 12:39:2 741/11381/011.389 zcl_common.c:362     [ZCL1] << zb_zcl_get_attribute_size: result 1
+6355 567cf0e0 2025-11-20 12:39:2 741/11381/011.389 zcl_general_commands.c:1409  [ZCL3] attr_size 1
+6356 567cf0e0 2025-11-20 12:39:2 741/11381/011.389 zcl_general_commands.c:94    [ZCL1] >> zb_zcl_put_attribute_value data_ptr 0xfffaac0c7e59, value 0xfffab8e46078, value_size 1
+6357 567cf0e0 2025-11-20 12:39:2 741/11381/011.389 zcl_general_commands.c:188   [ZCL1] << zb_zcl_put_attribute_value ret 0xfffaac0c7e5a
+6358 567cf0e0 2025-11-20 12:39:2 741/11381/011.389 zcl_reporting.c:1175 [ZCL1] >> save_reported_value rep_info 0xfffa3c0d6d10, attr_desc 0xfffab8e46608
+6359 567cf0e0 2025-11-20 12:39:2 741/11381/011.389 zcl_reporting.c:1177 [ZCL1] attr type 16
+6360 567cf0e0 2025-11-20 12:39:2 741/11381/011.389 zcl_common.c:547     [ZCL1] zb_zcl_is_analog_data_type 16, is analog 0
+6361 567cf0e0 2025-11-20 12:39:2 741/11381/011.389 zcl_reporting.c:1252 [ZCL3] descrete attr type
+6362 567cf0e0 2025-11-20 12:39:2 741/11381/011.389 zcl_common.c:232     [ZCL1] >> zb_zcl_get_attribute_size: attr_type 0x10 attr_value 0xfffab8e46078
+6363 567cf0e0 2025-11-20 12:39:2 741/11381/011.389 zcl_common.c:362     [ZCL1] << zb_zcl_get_attribute_size: result 1
+6364 567cf0e0 2025-11-20 12:39:2 741/11381/011.389 zcl_reporting.c:1256 [ZCL3] reported attr size 1, data crc32 = 0xa505df1b
+6365 567cf0e0 2025-11-20 12:39:2 741/11381/011.389 zcl_reporting.c:1259 [ZCL1] << save_reported_value
+6366 567cf0e0 2025-11-20 12:39:2 741/11381/011.389 zcl_reporting.c:1002 [ZCL1] >> zb_zcl_get_next_reporting_info, rep_info_init 0xfffa3c0d6d10, is_manuf_spec 0
+6367 567cf0e0 2025-11-20 12:39:2 741/11381/011.389 zcl_reporting.c:1021 [ZCL3] check next rep info 0xfffa3c0d6830
+6368 567cf0e0 2025-11-20 12:39:2 741/11381/011.389 zcl_general_commands.c:533   [ZCL2] >> zb_zcl_get_attr_desc_manuf_a ep 1, cluster_id 0x0, attr_id 0x0, manuf_code 0xffff
+6369 567cf0e0 2025-11-20 12:39:2 741/11381/011.389 zcl_common.c:583     [ZCL3] >>get_endpoint_desc 0xfffaac0c9e40 0xfffaac0c71f0 ep_id 1
+6370 567cf0e0 2025-11-20 12:39:2 741/11381/011.389 zcl_common.c:588     [ZCL3] device_ctx 0xfffaac0c71f0, ep_count 1
+6371 567cf0e0 2025-11-20 12:39:2 741/11381/011.389 zcl_common.c:590     [ZCL3] ep_id 1
+6372 567cf0e0 2025-11-20 12:39:2 741/11381/011.389 zcl_common.c:600     [ZCL3] <<get_endpoint_desc desc 0xfffab8e47300
+6373 567cf0e0 2025-11-20 12:39:2 741/11381/011.390 zcl_common.c:1612    [ZCL3] >>get_cluster_desc ep_desc 0xfffab8e47300, cluster_id 0x0 cluster_role 1
+6374 567cf0e0 2025-11-20 12:39:2 741/11381/011.390 zcl_common.c:1627    [ZCL3] <<get_cluster_desc cluster_desc 0xfffab8e471a8
+6375 567cf0e0 2025-11-20 12:39:2 741/11381/011.390 zcl_general_commands.c:489   [ZCL3] >> zb_zcl_get_attr_desc_manuf cluster_desc 0xfffab8e471a8, attr_id 0x0, manuf_code 0xffff, cluster id: 0x0
+6376 567cf0e0 2025-11-20 12:39:2 741/11381/011.390 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x0: is_attr_ids_match 1, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6377 567cf0e0 2025-11-20 12:39:2 741/11381/011.390 zcl_general_commands.c:504   [ZCL3] attribute is found
+6378 567cf0e0 2025-11-20 12:39:2 741/11381/011.390 zcl_general_commands.c:517   [ZCL3] << zb_zcl_get_attr_desc_manuf, attr_desc 0xfffab8e452e0
+6379 567cf0e0 2025-11-20 12:39:2 741/11381/011.390 zcl_general_commands.c:544   [ZCL2] << zb_zcl_get_attr_desc_manuf_a ret 0xfffab8e452e0
+6380 567cf0e0 2025-11-20 12:39:2 741/11381/011.390 zcl_reporting.c:1021 [ZCL3] check next rep info 0xfffa3c0d6860
+6381 567cf0e0 2025-11-20 12:39:2 741/11381/011.390 zcl_general_commands.c:533   [ZCL2] >> zb_zcl_get_attr_desc_manuf_a ep 1, cluster_id 0x0, attr_id 0x1, manuf_code 0xffff
+6382 567cf0e0 2025-11-20 12:39:2 741/11381/011.390 zcl_common.c:583     [ZCL3] >>get_endpoint_desc 0xfffaac0c9e40 0xfffaac0c71f0 ep_id 1
+6383 567cf0e0 2025-11-20 12:39:2 741/11381/011.390 zcl_common.c:588     [ZCL3] device_ctx 0xfffaac0c71f0, ep_count 1
+6384 567cf0e0 2025-11-20 12:39:2 741/11381/011.390 zcl_common.c:590     [ZCL3] ep_id 1
+6385 567cf0e0 2025-11-20 12:39:2 741/11381/011.390 zcl_common.c:600     [ZCL3] <<get_endpoint_desc desc 0xfffab8e47300
+6386 567cf0e0 2025-11-20 12:39:2 741/11381/011.390 zcl_common.c:1612    [ZCL3] >>get_cluster_desc ep_desc 0xfffab8e47300, cluster_id 0x0 cluster_role 1
+6387 567cf0e0 2025-11-20 12:39:2 741/11381/011.390 zcl_common.c:1627    [ZCL3] <<get_cluster_desc cluster_desc 0xfffab8e471a8
+6388 567cf0e0 2025-11-20 12:39:2 741/11381/011.390 zcl_general_commands.c:489   [ZCL3] >> zb_zcl_get_attr_desc_manuf cluster_desc 0xfffab8e471a8, attr_id 0x1, manuf_code 0xffff, cluster id: 0x0
+6389 567cf0e0 2025-11-20 12:39:2 741/11381/011.390 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x0: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6390 567cf0e0 2025-11-20 12:39:2 741/11381/011.390 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x1: is_attr_ids_match 1, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6391 567cf0e0 2025-11-20 12:39:2 741/11381/011.390 zcl_general_commands.c:504   [ZCL3] attribute is found
+6392 567cf0e0 2025-11-20 12:39:2 741/11381/011.390 zcl_general_commands.c:517   [ZCL3] << zb_zcl_get_attr_desc_manuf, attr_desc 0xfffab8e452ee
+6393 567cf0e0 2025-11-20 12:39:2 741/11381/011.390 zcl_general_commands.c:544   [ZCL2] << zb_zcl_get_attr_desc_manuf_a ret 0xfffab8e452ee
+6394 567cf0e0 2025-11-20 12:39:2 741/11381/011.390 zcl_reporting.c:1021 [ZCL3] check next rep info 0xfffa3c0d6890
+6395 567cf0e0 2025-11-20 12:39:2 741/11381/011.391 zcl_general_commands.c:533   [ZCL2] >> zb_zcl_get_attr_desc_manuf_a ep 1, cluster_id 0x0, attr_id 0x2, manuf_code 0xffff
+6396 567cf0e0 2025-11-20 12:39:2 741/11381/011.391 zcl_common.c:583     [ZCL3] >>get_endpoint_desc 0xfffaac0c9e40 0xfffaac0c71f0 ep_id 1
+6397 567cf0e0 2025-11-20 12:39:2 741/11381/011.391 zcl_common.c:588     [ZCL3] device_ctx 0xfffaac0c71f0, ep_count 1
+6398 567cf0e0 2025-11-20 12:39:2 741/11381/011.391 zcl_common.c:590     [ZCL3] ep_id 1
+6399 567cf0e0 2025-11-20 12:39:2 741/11381/011.391 zcl_common.c:600     [ZCL3] <<get_endpoint_desc desc 0xfffab8e47300
+6400 567cf0e0 2025-11-20 12:39:2 741/11381/011.391 zcl_common.c:1612    [ZCL3] >>get_cluster_desc ep_desc 0xfffab8e47300, cluster_id 0x0 cluster_role 1
+6401 567cf0e0 2025-11-20 12:39:2 741/11381/011.391 zcl_common.c:1627    [ZCL3] <<get_cluster_desc cluster_desc 0xfffab8e471a8
+6402 567cf0e0 2025-11-20 12:39:2 741/11381/011.391 zcl_general_commands.c:489   [ZCL3] >> zb_zcl_get_attr_desc_manuf cluster_desc 0xfffab8e471a8, attr_id 0x2, manuf_code 0xffff, cluster id: 0x0
+6403 567cf0e0 2025-11-20 12:39:2 741/11381/011.391 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x0: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6404 567cf0e0 2025-11-20 12:39:2 741/11381/011.391 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x1: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6405 567cf0e0 2025-11-20 12:39:2 741/11381/011.391 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x2: is_attr_ids_match 1, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6406 567cf0e0 2025-11-20 12:39:2 741/11381/011.391 zcl_general_commands.c:504   [ZCL3] attribute is found
+6407 567cf0e0 2025-11-20 12:39:2 741/11381/011.391 zcl_general_commands.c:517   [ZCL3] << zb_zcl_get_attr_desc_manuf, attr_desc 0xfffab8e452fc
+6408 567cf0e0 2025-11-20 12:39:2 741/11381/011.391 zcl_general_commands.c:544   [ZCL2] << zb_zcl_get_attr_desc_manuf_a ret 0xfffab8e452fc
+6409 567cf0e0 2025-11-20 12:39:2 741/11381/011.391 zcl_reporting.c:1021 [ZCL3] check next rep info 0xfffa3c0d68c0
+6410 567cf0e0 2025-11-20 12:39:2 741/11381/011.391 zcl_general_commands.c:533   [ZCL2] >> zb_zcl_get_attr_desc_manuf_a ep 1, cluster_id 0x0, attr_id 0x3, manuf_code 0xffff
+6411 567cf0e0 2025-11-20 12:39:2 741/11381/011.391 zcl_common.c:583     [ZCL3] >>get_endpoint_desc 0xfffaac0c9e40 0xfffaac0c71f0 ep_id 1
+6412 567cf0e0 2025-11-20 12:39:2 741/11381/011.391 zcl_common.c:588     [ZCL3] device_ctx 0xfffaac0c71f0, ep_count 1
+6413 567cf0e0 2025-11-20 12:39:2 741/11381/011.391 zcl_common.c:590     [ZCL3] ep_id 1
+6414 567cf0e0 2025-11-20 12:39:2 741/11381/011.391 zcl_common.c:600     [ZCL3] <<get_endpoint_desc desc 0xfffab8e47300
+6415 567cf0e0 2025-11-20 12:39:2 741/11381/011.391 zcl_common.c:1612    [ZCL3] >>get_cluster_desc ep_desc 0xfffab8e47300, cluster_id 0x0 cluster_role 1
+6416 567cf0e0 2025-11-20 12:39:2 741/11381/011.391 zcl_common.c:1627    [ZCL3] <<get_cluster_desc cluster_desc 0xfffab8e471a8
+6417 567cf0e0 2025-11-20 12:39:2 741/11381/011.391 zcl_general_commands.c:489   [ZCL3] >> zb_zcl_get_attr_desc_manuf cluster_desc 0xfffab8e471a8, attr_id 0x3, manuf_code 0xffff, cluster id: 0x0
+6418 567cf0e0 2025-11-20 12:39:2 741/11381/011.391 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x0: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6419 567cf0e0 2025-11-20 12:39:2 741/11381/011.392 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x1: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6420 567cf0e0 2025-11-20 12:39:2 741/11381/011.392 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x2: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6421 567cf0e0 2025-11-20 12:39:2 741/11381/011.392 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x3: is_attr_ids_match 1, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6422 567cf0e0 2025-11-20 12:39:2 741/11381/011.392 zcl_general_commands.c:504   [ZCL3] attribute is found
+6423 567cf0e0 2025-11-20 12:39:2 741/11381/011.392 zcl_general_commands.c:517   [ZCL3] << zb_zcl_get_attr_desc_manuf, attr_desc 0xfffab8e4530a
+6424 567cf0e0 2025-11-20 12:39:2 741/11381/011.392 zcl_general_commands.c:544   [ZCL2] << zb_zcl_get_attr_desc_manuf_a ret 0xfffab8e4530a
+6425 567cf0e0 2025-11-20 12:39:2 741/11381/011.392 zcl_reporting.c:1021 [ZCL3] check next rep info 0xfffa3c0d68f0
+6426 567cf0e0 2025-11-20 12:39:2 741/11381/011.392 zcl_general_commands.c:533   [ZCL2] >> zb_zcl_get_attr_desc_manuf_a ep 1, cluster_id 0x0, attr_id 0x4, manuf_code 0xffff
+6427 567cf0e0 2025-11-20 12:39:2 741/11381/011.392 zcl_common.c:583     [ZCL3] >>get_endpoint_desc 0xfffaac0c9e40 0xfffaac0c71f0 ep_id 1
+6428 567cf0e0 2025-11-20 12:39:2 741/11381/011.392 zcl_common.c:588     [ZCL3] device_ctx 0xfffaac0c71f0, ep_count 1
+6429 567cf0e0 2025-11-20 12:39:2 741/11381/011.392 zcl_common.c:590     [ZCL3] ep_id 1
+6430 567cf0e0 2025-11-20 12:39:2 741/11381/011.392 zcl_common.c:600     [ZCL3] <<get_endpoint_desc desc 0xfffab8e47300
+6431 567cf0e0 2025-11-20 12:39:2 741/11381/011.392 zcl_common.c:1612    [ZCL3] >>get_cluster_desc ep_desc 0xfffab8e47300, cluster_id 0x0 cluster_role 1
+6432 567cf0e0 2025-11-20 12:39:2 741/11381/011.392 zcl_common.c:1627    [ZCL3] <<get_cluster_desc cluster_desc 0xfffab8e471a8
+6433 567cf0e0 2025-11-20 12:39:2 741/11381/011.392 zcl_general_commands.c:489   [ZCL3] >> zb_zcl_get_attr_desc_manuf cluster_desc 0xfffab8e471a8, attr_id 0x4, manuf_code 0xffff, cluster id: 0x0
+6434 567cf0e0 2025-11-20 12:39:2 741/11381/011.392 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x0: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6435 567cf0e0 2025-11-20 12:39:2 741/11381/011.392 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x1: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6436 567cf0e0 2025-11-20 12:39:2 741/11381/011.392 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x2: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6437 567cf0e0 2025-11-20 12:39:2 741/11381/011.392 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x3: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6438 567cf0e0 2025-11-20 12:39:2 741/11381/011.392 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x4: is_attr_ids_match 1, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6439 567cf0e0 2025-11-20 12:39:2 741/11381/011.392 zcl_general_commands.c:504   [ZCL3] attribute is found
+6440 567cf0e0 2025-11-20 12:39:2 741/11381/011.392 zcl_general_commands.c:517   [ZCL3] << zb_zcl_get_attr_desc_manuf, attr_desc 0xfffab8e45318
+6441 567cf0e0 2025-11-20 12:39:2 741/11381/011.392 zcl_general_commands.c:544   [ZCL2] << zb_zcl_get_attr_desc_manuf_a ret 0xfffab8e45318
+6442 567cf0e0 2025-11-20 12:39:2 741/11381/011.392 zcl_reporting.c:1021 [ZCL3] check next rep info 0xfffa3c0d6920
+6443 567cf0e0 2025-11-20 12:39:2 741/11381/011.393 zcl_general_commands.c:533   [ZCL2] >> zb_zcl_get_attr_desc_manuf_a ep 1, cluster_id 0x0, attr_id 0x5, manuf_code 0xffff
+6444 567cf0e0 2025-11-20 12:39:2 741/11381/011.393 zcl_common.c:583     [ZCL3] >>get_endpoint_desc 0xfffaac0c9e40 0xfffaac0c71f0 ep_id 1
+6445 567cf0e0 2025-11-20 12:39:2 741/11381/011.393 zcl_common.c:588     [ZCL3] device_ctx 0xfffaac0c71f0, ep_count 1
+6446 567cf0e0 2025-11-20 12:39:2 741/11381/011.393 zcl_common.c:590     [ZCL3] ep_id 1
+6447 567cf0e0 2025-11-20 12:39:2 741/11381/011.393 zcl_common.c:600     [ZCL3] <<get_endpoint_desc desc 0xfffab8e47300
+6448 567cf0e0 2025-11-20 12:39:2 741/11381/011.393 zcl_common.c:1612    [ZCL3] >>get_cluster_desc ep_desc 0xfffab8e47300, cluster_id 0x0 cluster_role 1
+6449 567cf0e0 2025-11-20 12:39:2 741/11381/011.393 zcl_common.c:1627    [ZCL3] <<get_cluster_desc cluster_desc 0xfffab8e471a8
+6450 567cf0e0 2025-11-20 12:39:2 741/11381/011.393 zcl_general_commands.c:489   [ZCL3] >> zb_zcl_get_attr_desc_manuf cluster_desc 0xfffab8e471a8, attr_id 0x5, manuf_code 0xffff, cluster id: 0x0
+6451 567cf0e0 2025-11-20 12:39:2 741/11381/011.393 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x0: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6452 567cf0e0 2025-11-20 12:39:2 741/11381/011.393 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x1: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6453 567cf0e0 2025-11-20 12:39:2 741/11381/011.393 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x2: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6454 567cf0e0 2025-11-20 12:39:2 741/11381/011.393 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x3: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6455 567cf0e0 2025-11-20 12:39:2 741/11381/011.393 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x4: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6456 567cf0e0 2025-11-20 12:39:2 741/11381/011.393 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x5: is_attr_ids_match 1, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6457 567cf0e0 2025-11-20 12:39:2 741/11381/011.393 zcl_general_commands.c:504   [ZCL3] attribute is found
+6458 567cf0e0 2025-11-20 12:39:2 741/11381/011.393 zcl_general_commands.c:517   [ZCL3] << zb_zcl_get_attr_desc_manuf, attr_desc 0xfffab8e45326
+6459 567cf0e0 2025-11-20 12:39:2 741/11381/011.393 zcl_general_commands.c:544   [ZCL2] << zb_zcl_get_attr_desc_manuf_a ret 0xfffab8e45326
+6460 567cf0e0 2025-11-20 12:39:2 741/11381/011.393 zcl_reporting.c:1021 [ZCL3] check next rep info 0xfffa3c0d6950
+6461 567cf0e0 2025-11-20 12:39:2 741/11381/011.393 zcl_general_commands.c:533   [ZCL2] >> zb_zcl_get_attr_desc_manuf_a ep 1, cluster_id 0x0, attr_id 0x6, manuf_code 0xffff
+6462 567cf0e0 2025-11-20 12:39:2 741/11381/011.393 zcl_common.c:583     [ZCL3] >>get_endpoint_desc 0xfffaac0c9e40 0xfffaac0c71f0 ep_id 1
+6463 567cf0e0 2025-11-20 12:39:2 741/11381/011.393 zcl_common.c:588     [ZCL3] device_ctx 0xfffaac0c71f0, ep_count 1
+6464 567cf0e0 2025-11-20 12:39:2 741/11381/011.393 zcl_common.c:590     [ZCL3] ep_id 1
+6465 567cf0e0 2025-11-20 12:39:2 741/11381/011.393 zcl_common.c:600     [ZCL3] <<get_endpoint_desc desc 0xfffab8e47300
+6466 567cf0e0 2025-11-20 12:39:2 741/11381/011.393 zcl_common.c:1612    [ZCL3] >>get_cluster_desc ep_desc 0xfffab8e47300, cluster_id 0x0 cluster_role 1
+6467 567cf0e0 2025-11-20 12:39:2 741/11381/011.393 zcl_common.c:1627    [ZCL3] <<get_cluster_desc cluster_desc 0xfffab8e471a8
+6468 567cf0e0 2025-11-20 12:39:2 741/11381/011.393 zcl_general_commands.c:489   [ZCL3] >> zb_zcl_get_attr_desc_manuf cluster_desc 0xfffab8e471a8, attr_id 0x6, manuf_code 0xffff, cluster id: 0x0
+6469 567cf0e0 2025-11-20 12:39:2 741/11381/011.394 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x0: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6470 567cf0e0 2025-11-20 12:39:2 741/11381/011.394 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x1: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6471 567cf0e0 2025-11-20 12:39:2 741/11381/011.394 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x2: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6472 567cf0e0 2025-11-20 12:39:2 741/11381/011.394 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x3: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6473 567cf0e0 2025-11-20 12:39:2 741/11381/011.394 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x4: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6474 567cf0e0 2025-11-20 12:39:2 741/11381/011.394 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x5: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6475 567cf0e0 2025-11-20 12:39:2 741/11381/011.394 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x6: is_attr_ids_match 1, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6476 567cf0e0 2025-11-20 12:39:2 741/11381/011.394 zcl_general_commands.c:504   [ZCL3] attribute is found
+6477 567cf0e0 2025-11-20 12:39:2 741/11381/011.394 zcl_general_commands.c:517   [ZCL3] << zb_zcl_get_attr_desc_manuf, attr_desc 0xfffab8e45334
+6478 567cf0e0 2025-11-20 12:39:2 741/11381/011.394 zcl_general_commands.c:544   [ZCL2] << zb_zcl_get_attr_desc_manuf_a ret 0xfffab8e45334
+6479 567cf0e0 2025-11-20 12:39:2 741/11381/011.394 zcl_reporting.c:1021 [ZCL3] check next rep info 0xfffa3c0d6980
+6480 567cf0e0 2025-11-20 12:39:2 741/11381/011.394 zcl_general_commands.c:533   [ZCL2] >> zb_zcl_get_attr_desc_manuf_a ep 1, cluster_id 0x0, attr_id 0x7, manuf_code 0xffff
+6481 567cf0e0 2025-11-20 12:39:2 741/11381/011.394 zcl_common.c:583     [ZCL3] >>get_endpoint_desc 0xfffaac0c9e40 0xfffaac0c71f0 ep_id 1
+6482 567cf0e0 2025-11-20 12:39:2 741/11381/011.394 zcl_common.c:588     [ZCL3] device_ctx 0xfffaac0c71f0, ep_count 1
+6483 567cf0e0 2025-11-20 12:39:2 741/11381/011.394 zcl_common.c:590     [ZCL3] ep_id 1
+6484 567cf0e0 2025-11-20 12:39:2 741/11381/011.394 zcl_common.c:600     [ZCL3] <<get_endpoint_desc desc 0xfffab8e47300
+6485 567cf0e0 2025-11-20 12:39:2 741/11381/011.394 zcl_common.c:1612    [ZCL3] >>get_cluster_desc ep_desc 0xfffab8e47300, cluster_id 0x0 cluster_role 1
+6486 567cf0e0 2025-11-20 12:39:2 741/11381/011.394 zcl_common.c:1627    [ZCL3] <<get_cluster_desc cluster_desc 0xfffab8e471a8
+6487 567cf0e0 2025-11-20 12:39:2 741/11381/011.394 zcl_general_commands.c:489   [ZCL3] >> zb_zcl_get_attr_desc_manuf cluster_desc 0xfffab8e471a8, attr_id 0x7, manuf_code 0xffff, cluster id: 0x0
+6488 567cf0e0 2025-11-20 12:39:2 741/11381/011.394 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x0: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6489 567cf0e0 2025-11-20 12:39:2 741/11381/011.394 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x1: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6490 567cf0e0 2025-11-20 12:39:2 741/11381/011.394 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x2: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6491 567cf0e0 2025-11-20 12:39:2 741/11381/011.394 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x3: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6492 567cf0e0 2025-11-20 12:39:2 741/11381/011.394 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x4: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6493 567cf0e0 2025-11-20 12:39:2 741/11381/011.394 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x5: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6494 567cf0e0 2025-11-20 12:39:2 741/11381/011.394 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x6: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6495 567cf0e0 2025-11-20 12:39:2 741/11381/011.395 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x7: is_attr_ids_match 1, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6496 567cf0e0 2025-11-20 12:39:2 741/11381/011.395 zcl_general_commands.c:504   [ZCL3] attribute is found
+6497 567cf0e0 2025-11-20 12:39:2 741/11381/011.395 zcl_general_commands.c:517   [ZCL3] << zb_zcl_get_attr_desc_manuf, attr_desc 0xfffab8e45342
+6498 567cf0e0 2025-11-20 12:39:2 741/11381/011.395 zcl_general_commands.c:544   [ZCL2] << zb_zcl_get_attr_desc_manuf_a ret 0xfffab8e45342
+6499 567cf0e0 2025-11-20 12:39:2 741/11381/011.395 zcl_reporting.c:1021 [ZCL3] check next rep info 0xfffa3c0d69b0
+6500 567cf0e0 2025-11-20 12:39:2 741/11381/011.395 zcl_general_commands.c:533   [ZCL2] >> zb_zcl_get_attr_desc_manuf_a ep 1, cluster_id 0x0, attr_id 0x8, manuf_code 0xffff
+6501 567cf0e0 2025-11-20 12:39:2 741/11381/011.395 zcl_common.c:583     [ZCL3] >>get_endpoint_desc 0xfffaac0c9e40 0xfffaac0c71f0 ep_id 1
+6502 567cf0e0 2025-11-20 12:39:2 741/11381/011.395 zcl_common.c:588     [ZCL3] device_ctx 0xfffaac0c71f0, ep_count 1
+6503 567cf0e0 2025-11-20 12:39:2 741/11381/011.395 zcl_common.c:590     [ZCL3] ep_id 1
+6504 567cf0e0 2025-11-20 12:39:2 741/11381/011.395 zcl_common.c:600     [ZCL3] <<get_endpoint_desc desc 0xfffab8e47300
+6505 567cf0e0 2025-11-20 12:39:2 741/11381/011.395 zcl_common.c:1612    [ZCL3] >>get_cluster_desc ep_desc 0xfffab8e47300, cluster_id 0x0 cluster_role 1
+6506 567cf0e0 2025-11-20 12:39:2 741/11381/011.395 zcl_common.c:1627    [ZCL3] <<get_cluster_desc cluster_desc 0xfffab8e471a8
+6507 567cf0e0 2025-11-20 12:39:2 741/11381/011.395 zcl_general_commands.c:489   [ZCL3] >> zb_zcl_get_attr_desc_manuf cluster_desc 0xfffab8e471a8, attr_id 0x8, manuf_code 0xffff, cluster id: 0x0
+6508 567cf0e0 2025-11-20 12:39:2 741/11381/011.395 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x0: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6509 567cf0e0 2025-11-20 12:39:2 741/11381/011.395 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x1: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6510 567cf0e0 2025-11-20 12:39:2 741/11381/011.395 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x2: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6511 567cf0e0 2025-11-20 12:39:2 741/11381/011.395 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x3: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6512 567cf0e0 2025-11-20 12:39:2 741/11381/011.395 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x4: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6513 567cf0e0 2025-11-20 12:39:2 741/11381/011.395 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x5: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6514 567cf0e0 2025-11-20 12:39:2 741/11381/011.395 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x6: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6515 567cf0e0 2025-11-20 12:39:2 741/11381/011.395 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x7: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6516 567cf0e0 2025-11-20 12:39:2 741/11381/011.395 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x8: is_attr_ids_match 1, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6517 567cf0e0 2025-11-20 12:39:2 741/11381/011.396 zcl_general_commands.c:504   [ZCL3] attribute is found
+6518 567cf0e0 2025-11-20 12:39:2 741/11381/011.396 zcl_general_commands.c:517   [ZCL3] << zb_zcl_get_attr_desc_manuf, attr_desc 0xfffab8e45350
+6519 567cf0e0 2025-11-20 12:39:2 741/11381/011.396 zcl_general_commands.c:544   [ZCL2] << zb_zcl_get_attr_desc_manuf_a ret 0xfffab8e45350
+6520 567cf0e0 2025-11-20 12:39:2 741/11381/011.396 zcl_reporting.c:1021 [ZCL3] check next rep info 0xfffa3c0d69e0
+6521 567cf0e0 2025-11-20 12:39:2 741/11381/011.396 zcl_general_commands.c:533   [ZCL2] >> zb_zcl_get_attr_desc_manuf_a ep 1, cluster_id 0x0, attr_id 0x9, manuf_code 0xffff
+6522 567cf0e0 2025-11-20 12:39:2 741/11381/011.396 zcl_common.c:583     [ZCL3] >>get_endpoint_desc 0xfffaac0c9e40 0xfffaac0c71f0 ep_id 1
+6523 567cf0e0 2025-11-20 12:39:2 741/11381/011.396 zcl_common.c:588     [ZCL3] device_ctx 0xfffaac0c71f0, ep_count 1
+6524 567cf0e0 2025-11-20 12:39:2 741/11381/011.396 zcl_common.c:590     [ZCL3] ep_id 1
+6525 567cf0e0 2025-11-20 12:39:2 741/11381/011.396 zcl_common.c:600     [ZCL3] <<get_endpoint_desc desc 0xfffab8e47300
+6526 567cf0e0 2025-11-20 12:39:2 741/11381/011.396 zcl_common.c:1612    [ZCL3] >>get_cluster_desc ep_desc 0xfffab8e47300, cluster_id 0x0 cluster_role 1
+6527 567cf0e0 2025-11-20 12:39:2 741/11381/011.396 zcl_common.c:1627    [ZCL3] <<get_cluster_desc cluster_desc 0xfffab8e471a8
+6528 567cf0e0 2025-11-20 12:39:2 741/11381/011.396 zcl_general_commands.c:489   [ZCL3] >> zb_zcl_get_attr_desc_manuf cluster_desc 0xfffab8e471a8, attr_id 0x9, manuf_code 0xffff, cluster id: 0x0
+6529 567cf0e0 2025-11-20 12:39:2 741/11381/011.396 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x0: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6530 567cf0e0 2025-11-20 12:39:2 741/11381/011.396 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x1: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6531 567cf0e0 2025-11-20 12:39:2 741/11381/011.396 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x2: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6532 567cf0e0 2025-11-20 12:39:2 741/11381/011.396 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x3: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6533 567cf0e0 2025-11-20 12:39:2 741/11381/011.396 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x4: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6534 567cf0e0 2025-11-20 12:39:2 741/11381/011.396 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x5: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6535 567cf0e0 2025-11-20 12:39:2 741/11381/011.396 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x6: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6536 567cf0e0 2025-11-20 12:39:2 741/11381/011.396 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x7: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6537 567cf0e0 2025-11-20 12:39:2 741/11381/011.396 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x8: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6538 567cf0e0 2025-11-20 12:39:2 741/11381/011.396 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x9: is_attr_ids_match 1, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6539 567cf0e0 2025-11-20 12:39:2 741/11381/011.396 zcl_general_commands.c:504   [ZCL3] attribute is found
+6540 567cf0e0 2025-11-20 12:39:2 741/11381/011.396 zcl_general_commands.c:517   [ZCL3] << zb_zcl_get_attr_desc_manuf, attr_desc 0xfffab8e4535e
+6541 567cf0e0 2025-11-20 12:39:2 741/11381/011.397 zcl_general_commands.c:544   [ZCL2] << zb_zcl_get_attr_desc_manuf_a ret 0xfffab8e4535e
+6542 567cf0e0 2025-11-20 12:39:2 741/11381/011.397 zcl_reporting.c:1021 [ZCL3] check next rep info 0xfffa3c0d6a10
+6543 567cf0e0 2025-11-20 12:39:2 741/11381/011.397 zcl_general_commands.c:533   [ZCL2] >> zb_zcl_get_attr_desc_manuf_a ep 1, cluster_id 0x0, attr_id 0xa, manuf_code 0xffff
+6544 567cf0e0 2025-11-20 12:39:2 741/11381/011.397 zcl_common.c:583     [ZCL3] >>get_endpoint_desc 0xfffaac0c9e40 0xfffaac0c71f0 ep_id 1
+6545 567cf0e0 2025-11-20 12:39:2 741/11381/011.397 zcl_common.c:588     [ZCL3] device_ctx 0xfffaac0c71f0, ep_count 1
+6546 567cf0e0 2025-11-20 12:39:2 741/11381/011.397 zcl_common.c:590     [ZCL3] ep_id 1
+6547 567cf0e0 2025-11-20 12:39:2 741/11381/011.397 zcl_common.c:600     [ZCL3] <<get_endpoint_desc desc 0xfffab8e47300
+6548 567cf0e0 2025-11-20 12:39:2 741/11381/011.397 zcl_common.c:1612    [ZCL3] >>get_cluster_desc ep_desc 0xfffab8e47300, cluster_id 0x0 cluster_role 1
+6549 567cf0e0 2025-11-20 12:39:2 741/11381/011.397 zcl_common.c:1627    [ZCL3] <<get_cluster_desc cluster_desc 0xfffab8e471a8
+6550 567cf0e0 2025-11-20 12:39:2 741/11381/011.397 zcl_general_commands.c:489   [ZCL3] >> zb_zcl_get_attr_desc_manuf cluster_desc 0xfffab8e471a8, attr_id 0xa, manuf_code 0xffff, cluster id: 0x0
+6551 567cf0e0 2025-11-20 12:39:2 741/11381/011.397 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x0: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6552 567cf0e0 2025-11-20 12:39:2 741/11381/011.397 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x1: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6553 567cf0e0 2025-11-20 12:39:2 741/11381/011.397 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x2: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6554 567cf0e0 2025-11-20 12:39:2 741/11381/011.397 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x3: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6555 567cf0e0 2025-11-20 12:39:2 741/11381/011.397 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x4: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6556 567cf0e0 2025-11-20 12:39:2 741/11381/011.397 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x5: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6557 567cf0e0 2025-11-20 12:39:2 741/11381/011.397 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x6: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6558 567cf0e0 2025-11-20 12:39:2 741/11381/011.397 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x7: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6559 567cf0e0 2025-11-20 12:39:2 741/11381/011.397 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x8: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6560 567cf0e0 2025-11-20 12:39:2 741/11381/011.397 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x9: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6561 567cf0e0 2025-11-20 12:39:2 741/11381/011.397 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0xa: is_attr_ids_match 1, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6562 567cf0e0 2025-11-20 12:39:2 741/11381/011.397 zcl_general_commands.c:504   [ZCL3] attribute is found
+6563 567cf0e0 2025-11-20 12:39:2 741/11381/011.397 zcl_general_commands.c:517   [ZCL3] << zb_zcl_get_attr_desc_manuf, attr_desc 0xfffab8e4536c
+6564 567cf0e0 2025-11-20 12:39:2 741/11381/011.397 zcl_general_commands.c:544   [ZCL2] << zb_zcl_get_attr_desc_manuf_a ret 0xfffab8e4536c
+6565 567cf0e0 2025-11-20 12:39:2 741/11381/011.397 zcl_reporting.c:1021 [ZCL3] check next rep info 0xfffa3c0d6a40
+6566 567cf0e0 2025-11-20 12:39:2 741/11381/011.397 zcl_general_commands.c:533   [ZCL2] >> zb_zcl_get_attr_desc_manuf_a ep 1, cluster_id 0x0, attr_id 0xb, manuf_code 0xffff
+6567 567cf0e0 2025-11-20 12:39:2 741/11381/011.398 zcl_common.c:583     [ZCL3] >>get_endpoint_desc 0xfffaac0c9e40 0xfffaac0c71f0 ep_id 1
+6568 567cf0e0 2025-11-20 12:39:2 741/11381/011.398 zcl_common.c:588     [ZCL3] device_ctx 0xfffaac0c71f0, ep_count 1
+6569 567cf0e0 2025-11-20 12:39:2 741/11381/011.398 zcl_common.c:590     [ZCL3] ep_id 1
+6570 567cf0e0 2025-11-20 12:39:2 741/11381/011.398 zcl_common.c:600     [ZCL3] <<get_endpoint_desc desc 0xfffab8e47300
+6571 567cf0e0 2025-11-20 12:39:2 741/11381/011.398 zcl_common.c:1612    [ZCL3] >>get_cluster_desc ep_desc 0xfffab8e47300, cluster_id 0x0 cluster_role 1
+6572 567cf0e0 2025-11-20 12:39:2 741/11381/011.398 zcl_common.c:1627    [ZCL3] <<get_cluster_desc cluster_desc 0xfffab8e471a8
+6573 567cf0e0 2025-11-20 12:39:2 741/11381/011.398 zcl_general_commands.c:489   [ZCL3] >> zb_zcl_get_attr_desc_manuf cluster_desc 0xfffab8e471a8, attr_id 0xb, manuf_code 0xffff, cluster id: 0x0
+6574 567cf0e0 2025-11-20 12:39:2 741/11381/011.398 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x0: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6575 567cf0e0 2025-11-20 12:39:2 741/11381/011.398 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x1: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6576 567cf0e0 2025-11-20 12:39:2 741/11381/011.398 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x2: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6577 567cf0e0 2025-11-20 12:39:2 741/11381/011.398 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x3: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6578 567cf0e0 2025-11-20 12:39:2 741/11381/011.398 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x4: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6579 567cf0e0 2025-11-20 12:39:2 741/11381/011.398 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x5: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6580 567cf0e0 2025-11-20 12:39:2 741/11381/011.398 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x6: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6581 567cf0e0 2025-11-20 12:39:2 741/11381/011.398 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x7: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6582 567cf0e0 2025-11-20 12:39:2 741/11381/011.398 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x8: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6583 567cf0e0 2025-11-20 12:39:2 741/11381/011.398 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x9: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6584 567cf0e0 2025-11-20 12:39:2 741/11381/011.398 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0xa: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6585 567cf0e0 2025-11-20 12:39:2 741/11381/011.398 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0xb: is_attr_ids_match 1, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6586 567cf0e0 2025-11-20 12:39:2 741/11381/011.398 zcl_general_commands.c:504   [ZCL3] attribute is found
+6587 567cf0e0 2025-11-20 12:39:2 741/11381/011.398 zcl_general_commands.c:517   [ZCL3] << zb_zcl_get_attr_desc_manuf, attr_desc 0xfffab8e4537a
+6588 567cf0e0 2025-11-20 12:39:2 741/11381/011.398 zcl_general_commands.c:544   [ZCL2] << zb_zcl_get_attr_desc_manuf_a ret 0xfffab8e4537a
+6589 567cf0e0 2025-11-20 12:39:2 741/11381/011.398 zcl_reporting.c:1021 [ZCL3] check next rep info 0xfffa3c0d6a70
+6590 567cf0e0 2025-11-20 12:39:2 741/11381/011.398 zcl_general_commands.c:533   [ZCL2] >> zb_zcl_get_attr_desc_manuf_a ep 1, cluster_id 0x0, attr_id 0x4000, manuf_code 0xffff
+6591 567cf0e0 2025-11-20 12:39:2 741/11381/011.399 zcl_common.c:583     [ZCL3] >>get_endpoint_desc 0xfffaac0c9e40 0xfffaac0c71f0 ep_id 1
+6592 567cf0e0 2025-11-20 12:39:2 741/11381/011.399 zcl_common.c:588     [ZCL3] device_ctx 0xfffaac0c71f0, ep_count 1
+6593 567cf0e0 2025-11-20 12:39:2 741/11381/011.399 zcl_common.c:590     [ZCL3] ep_id 1
+6594 567cf0e0 2025-11-20 12:39:2 741/11381/011.399 zcl_common.c:600     [ZCL3] <<get_endpoint_desc desc 0xfffab8e47300
+6595 567cf0e0 2025-11-20 12:39:2 741/11381/011.399 zcl_common.c:1612    [ZCL3] >>get_cluster_desc ep_desc 0xfffab8e47300, cluster_id 0x0 cluster_role 1
+6596 567cf0e0 2025-11-20 12:39:2 741/11381/011.399 zcl_common.c:1627    [ZCL3] <<get_cluster_desc cluster_desc 0xfffab8e471a8
+6597 567cf0e0 2025-11-20 12:39:2 741/11381/011.399 zcl_general_commands.c:489   [ZCL3] >> zb_zcl_get_attr_desc_manuf cluster_desc 0xfffab8e471a8, attr_id 0x4000, manuf_code 0xffff, cluster id: 0x0
+6598 567cf0e0 2025-11-20 12:39:2 741/11381/011.399 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x0: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6599 567cf0e0 2025-11-20 12:39:2 741/11381/011.399 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x1: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6600 567cf0e0 2025-11-20 12:39:2 741/11381/011.399 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x2: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6601 567cf0e0 2025-11-20 12:39:2 741/11381/011.399 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x3: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6602 567cf0e0 2025-11-20 12:39:2 741/11381/011.399 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x4: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6603 567cf0e0 2025-11-20 12:39:2 741/11381/011.399 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x5: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6604 567cf0e0 2025-11-20 12:39:2 741/11381/011.399 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x6: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6605 567cf0e0 2025-11-20 12:39:2 741/11381/011.399 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x7: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6606 567cf0e0 2025-11-20 12:39:2 741/11381/011.399 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x8: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6607 567cf0e0 2025-11-20 12:39:2 741/11381/011.399 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x9: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6608 567cf0e0 2025-11-20 12:39:2 741/11381/011.399 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0xa: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6609 567cf0e0 2025-11-20 12:39:2 741/11381/011.399 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0xb: is_attr_ids_match 0, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6610 567cf0e0 2025-11-20 12:39:2 741/11381/011.399 zcl_general_commands.c:500   [ZCL3] Checking attribute with id 0x4000: is_attr_ids_match 1, is_manuf_codes_match 1, is_ms_bit_set 0, is_ms_bit_set_correctly 1
+6611 567cf0e0 2025-11-20 12:39:2 741/11381/011.399 zcl_general_commands.c:504   [ZCL3] attribute is found
+6612 567cf0e0 2025-11-20 12:39:2 741/11381/011.399 zcl_general_commands.c:517   [ZCL3] << zb_zcl_get_attr_desc_manuf, attr_desc 0xfffab8e45388
+6613 567cf0e0 2025-11-20 12:39:2 741/11381/011.399 zcl_general_commands.c:544   [ZCL2] << zb_zcl_get_attr_desc_manuf_a ret 0xfffab8e45388
+6614 567cf0e0 2025-11-20 12:39:2 741/11381/011.399 zcl_reporting.c:1021 [ZCL3] check next rep info 0xfffa3c0d6aa0
+6615 567cf0e0 2025-11-20 12:39:2 741/11381/011.400 zcl_general_commands.c:533   [ZCL2] >> zb_zcl_get_attr_desc_manuf_a ep 0, cluster_id 0x0, attr_id 0x0, manuf_code 0x0
+6616 567cf0e0 2025-11-20 12:39:2 741/11381/011.400 zcl_common.c:583     [ZCL3] >>get_endpoint_desc 0xfffaac0c9e40 0xfffaac0c71f0 ep_id 0
+6617 567cf0e0 2025-11-20 12:39:2 741/11381/011.400 zcl_common.c:588     [ZCL3] device_ctx 0xfffaac0c71f0, ep_count 1
+6618 567cf0e0 2025-11-20 12:39:2 741/11381/011.400 zcl_common.c:590     [ZCL3] ep_id 1
+6619 567cf0e0 2025-11-20 12:39:2 741/11381/011.400 zcl_common.c:600     [ZCL3] <<get_endpoint_desc desc (nil)
+6620 567cf0e0 2025-11-20 12:39:2 741/11381/011.400 zb_debug.c:84        [ERROR] Assertion failed zcl_general_commands.c:537
