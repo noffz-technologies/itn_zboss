@@ -341,6 +341,7 @@ uint8_t device_handler(uint8_t param)
             info.payload_length = zb_buf_len(param);
             info.payload = (zb_uint8_t*)zb_buf_begin(param);
             callbacks.cmd_receive(info);
+            success = 1;
         }           
     }
     return success;
