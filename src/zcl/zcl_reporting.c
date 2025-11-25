@@ -951,19 +951,33 @@ void zb_zcl_report_attr(zb_uint8_t param)
               {
                 TRACE_MSG(TRACE_ZCL1, "buffer is free, send report", (FMT__0));
 
-                /* Moved to zb_zcl_send_report_attr_command() - to properly reset flags for each
-                   rep_info independently (if there are 2 attributes to report in one cluster). */
-                /* ZB_ZCL_CLR_REPORTING_FLAG(rep_info, ZB_ZCL_REPORT_ATTR); */
-                /* ZB_ZCL_CLR_REPORTING_FLAG(rep_info, ZB_ZCL_REPORT_IS_ALLOWED); */
-                /* ZB_ZCL_CLR_REPORTING_FLAG(rep_info, ZB_ZCL_REPORT_TIMER_STARTED); */
-                /* ZB_ZCL_SET_REPORTING_FLAG(rep_info, ZB_ZCL_REPORT_IS_SENT); */
+                /* WORKAROUND: Validate endpoint exists before sending report */
+                zb_af_endpoint_desc_t *ep_desc_check = zb_af_get_endpoint_desc(rep_info->ep);
+                if (ep_desc_check == NULL)
+                {
+                  TRACE_MSG(TRACE_ZCL1, "WARNING: Cannot send report - endpoint %hd does not exist, skipping",
+                           (FMT__H, rep_info->ep));
+                  /* Clear the flags to prevent repeated attempts */
+                  ZB_ZCL_CLR_REPORTING_FLAG(rep_info, ZB_ZCL_REPORT_ATTR);
+                  ZB_ZCL_CLR_REPORTING_FLAG(rep_info, ZB_ZCL_REPORT_IS_ALLOWED);
+                  /* Don't increment here - let the loop handle it */
+                }
+                else
+                {
+                  /* Moved to zb_zcl_send_report_attr_command() - to properly reset flags for each
+                     rep_info independently (if there are 2 attributes to report in one cluster). */
+                  /* ZB_ZCL_CLR_REPORTING_FLAG(rep_info, ZB_ZCL_REPORT_ATTR); */
+                  /* ZB_ZCL_CLR_REPORTING_FLAG(rep_info, ZB_ZCL_REPORT_IS_ALLOWED); */
+                  /* ZB_ZCL_CLR_REPORTING_FLAG(rep_info, ZB_ZCL_REPORT_TIMER_STARTED); */
+                  /* ZB_ZCL_SET_REPORTING_FLAG(rep_info, ZB_ZCL_REPORT_IS_SENT); */
 
-                zb_zcl_send_report_attr_command(rep_info, ZCL_CTX().reporting_ctx.buf_ref);
-                ZCL_CTX().reporting_ctx.buf_ref = ZB_UNDEFINED_BUFFER;
+                  zb_zcl_send_report_attr_command(rep_info, ZCL_CTX().reporting_ctx.buf_ref);
+                  ZCL_CTX().reporting_ctx.buf_ref = ZB_UNDEFINED_BUFFER;
 
-                report_sent = ZB_TRUE;
+                  report_sent = ZB_TRUE;
 
-                break;
+                  break;
+                }
               }
               else
               {
@@ -1028,7 +1042,7 @@ zb_zcl_reporting_info_t* zb_zcl_get_next_reporting_info(zb_zcl_reporting_info_t 
           if (ep_desc_check == NULL)
           {
             TRACE_MSG(TRACE_ZCL1, "WARNING: Invalid endpoint %hd in reporting entry, skipping", (FMT__H, rep_info->ep));
-            rep_info++;
+            /* Don't manually increment - the loop does it at line 1081 */
             continue;
           }
 
@@ -1040,7 +1054,7 @@ zb_zcl_reporting_info_t* zb_zcl_get_next_reporting_info(zb_zcl_reporting_info_t 
           {
             TRACE_MSG(TRACE_ZCL1, "WARNING: attr_desc is NULL for ep %hd, cluster 0x%x, attr 0x%x, skipping",
                      (FMT__H_D_D, rep_info->ep, rep_info->cluster_id, rep_info->attr_id));
-            rep_info++;
+            /* Don't manually increment - the loop does it at line 1081 */
             continue;
           }
 

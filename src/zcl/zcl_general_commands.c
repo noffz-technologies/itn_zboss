@@ -1360,6 +1360,16 @@ void zb_zcl_send_report_attr_command(zb_zcl_reporting_info_t *rep_info, zb_uint8
       rep_info->attr_id,
       rep_info->manuf_code);
 
+  /* WORKAROUND: If attribute descriptor is NULL (invalid endpoint/cluster/attribute), abort sending report */
+  if (attr_desc == NULL)
+  {
+    TRACE_MSG(TRACE_ZCL1, "WARNING: Cannot send report - invalid ep %hd, cluster 0x%x, attr 0x%x",
+             (FMT__H_D_D, rep_info->ep, rep_info->cluster_id, rep_info->attr_id));
+    /* Free the buffer and return */
+    zb_buf_free(param);
+    return;
+  }
+
   is_manuf_spec = !!ZB_ZCL_IS_ATTR_MANUF_SPEC(attr_desc);
 
   /* ZCL spec, 2.4.11 Report Attributes Command */
@@ -1400,7 +1410,14 @@ void zb_zcl_send_report_attr_command(zb_zcl_reporting_info_t *rep_info, zb_uint8
 
     /* attribute description could not be absent, it is checked while accepting configure report
        command */
-    ZB_ASSERT(attr_desc);
+    /* WORKAROUND: Skip this reporting entry if attr_desc is NULL (invalid endpoint/cluster/attribute) */
+    if (attr_desc == NULL)
+    {
+      TRACE_MSG(TRACE_ZCL1, "WARNING: Skipping invalid report entry - ep %hd, cluster 0x%x, attr 0x%x",
+               (FMT__H_D_D, cur_rep_info->ep, cur_rep_info->cluster_id, cur_rep_info->attr_id));
+      cur_rep_info = zb_zcl_get_next_reporting_info(cur_rep_info, is_manuf_spec);
+      continue;
+    }
 
     bytes_avail = ZB_ZCL_GET_BYTES_AVAILABLE(param, cmd_data,
                                              cur_rep_info->dst.profile_id, cur_rep_info->cluster_id);
