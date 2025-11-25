@@ -534,7 +534,12 @@ zb_zcl_attr_t* zb_zcl_get_attr_desc_manuf_a(zb_uint8_t ep,
 
   ep_desc = zb_af_get_endpoint_desc(ep);
   /* EP existence was checked on command accept - it must be in the list */
-  ZB_ASSERT(ep_desc);
+  /* WORKAROUND: Return NULL instead of asserting to prevent crash with invalid reporting entries */
+  if (ep_desc == NULL)
+  {
+    TRACE_MSG(TRACE_ZCL1, "WARNING: endpoint %hd does not exist, returning NULL", (FMT__H, ep));
+    return NULL;
+  }
 
   cluster_desc = get_cluster_desc(ep_desc, cluster_id, cluster_role);
   /* Cluster existence was checked on command accept - it must be in the list */

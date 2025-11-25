@@ -1022,9 +1022,28 @@ zb_zcl_reporting_info_t* zb_zcl_get_next_reporting_info(zb_zcl_reporting_info_t 
 
         if (ZB_ZCL_GET_REPORTING_FLAG(rep_info, ZB_ZCL_REPORTING_SLOT_BUSY))
         {
+          /* WORKAROUND: Validate endpoint exists before accessing attributes
+           * to prevent crash when invalid reporting entries exist */
+          zb_af_endpoint_desc_t *ep_desc_check = zb_af_get_endpoint_desc(rep_info->ep);
+          if (ep_desc_check == NULL)
+          {
+            TRACE_MSG(TRACE_ZCL1, "WARNING: Invalid endpoint %hd in reporting entry, skipping", (FMT__H, rep_info->ep));
+            rep_info++;
+            continue;
+          }
 
           attr_desc =
             zb_zcl_get_attr_desc_manuf_a(rep_info->ep, rep_info->cluster_id, rep_info->cluster_role, rep_info->attr_id, rep_info->manuf_code);
+
+          /* WORKAROUND: Skip if attribute descriptor is NULL (invalid endpoint/cluster/attribute) */
+          if (attr_desc == NULL)
+          {
+            TRACE_MSG(TRACE_ZCL1, "WARNING: attr_desc is NULL for ep %hd, cluster 0x%x, attr 0x%x, skipping",
+                     (FMT__H_D_D, rep_info->ep, rep_info->cluster_id, rep_info->attr_id));
+            rep_info++;
+            continue;
+          }
+
           attr_manuf_spec = !!ZB_ZCL_IS_ATTR_MANUF_SPEC(attr_desc);
 
           if (ZB_ZCL_GET_REPORTING_FLAG(rep_info, ZB_ZCL_REPORT_ATTR) &&

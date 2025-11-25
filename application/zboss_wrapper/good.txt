@@ -1,0 +1,239 @@
+13557 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.016 high_level/host/adapters/ncp_host_hl_adapter_aps.c:174     [TRANSPORT3] >> apsde_data_acknowledged: param 2 status: -1192
+13558 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.016 af_rx.c:75 [ZDO2] >> zb_af_is_confirm_for_zcl_frame, param 2
+13559 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.016 zcl_common.c:583   [ZCL3] >>get_endpoint_desc 0xffff9f129e40 0xffff9f1271f0 ep_id 1
+13560 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.016 zcl_common.c:588   [ZCL3] device_ctx 0xffff9f1271f0, ep_count 1
+13561 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.016 zcl_common.c:590   [ZCL3] ep_id 1
+13562 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.016 zcl_common.c:600   [ZCL3] <<get_endpoint_desc desc 0xfffc9c8749e0
+13563 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.016 af_rx.c:99 [ZDO2] << zb_af_is_confirm_for_zcl_frame, is_zcl_frame 1
+13564 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.016 af_rx.c:109        [ZDO2] >> zb_af_handle_zcl_frame_data_confirm, param 2
+13565 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.016 af_rx.c:132        [APS3] confirm: received address 0x0
+13566 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.016 zcl_common.c:694   [ZCL1] >> zb_zcl_ack_callback 2
+13567 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.016 zcl_common.c:703   [ZCL2] found callback 0xffff9f0cea40
+13568 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.016 high_level/host/adapters/ncp_host_hl_adapter_zdo.c:1853    [TRANSPORT2] >> zb_zdo_pim_turbo_poll_cancel_packet
+13569 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.016 high_level/host/transport/ncp_host_hl_proto_nwkmgmt.c:1552 [TRANSPORT2] >> ncp_host_nwk_turbo_poll_cancel_packet
+13570 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.016 high_level/host/ncp_host_hl_proto.c:478    [TRANSPORT3] >> ncp_host_get_buf_for_blocking_request, call_id 0x431
+13571 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.016 high_level/host/ncp_host_hl_buffers.c:112  [TRANSPORT3] >> ncp_host_hl_init_request_body, hdr 0xffff9f12ca94
+13572 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.016 high_level/host/ncp_host_hl_buffers.c:122  [TRANSPORT3] << ncp_host_hl_init_request_body, ret 0
+13573 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.016 high_level/host/ncp_host_hl_proto.c:488    [TRANSPORT3] << ncp_host_get_buf_for_blocking_request, ret 0, tsn 62
+13574 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.016 high_level/host/ncp_host_hl_proto.c:520    [TRANSPORT3] >> ncp_host_hl_send_packet, buf_id 1
+13575 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.016 high_level/host/ncp_host_hl_proto.c:549    [TRANSPORT3]     send packet without queueing, is_blocking 1
+13576 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.016 high_level/host/ncp_host_hl_proto.c:570    [TRANSPORT3] << ncp_host_hl_send_packet, ret 0
+13577 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.016 high_level/host/transport/ncp_host_hl_proto_nwkmgmt.c:1559 [TRANSPORT2] << ncp_host_nwk_turbo_poll_cancel_packet, ret 0
+13578 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.016 high_level/host/adapters/ncp_host_hl_adapter_zdo.c:1858    [TRANSPORT2] << zb_zdo_pim_turbo_poll_cancel_packet, ret 0
+13579 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.016 zcl_common.c:727   [ZCL1] << zb_zcl_ack_callback ret 0
+13580 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.016 af_rx.c:139        [ZDO2] << zb_af_handle_zcl_frame_data_confirm
+13581 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.016 high_level/host/adapters/ncp_host_hl_adapter_aps.c:189     [TRANSPORT3] << apsde_data_acknowledged
+13582 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.016 high_level/host/adapters/ncp_host_hl_adapter_aps.c:215     [TRANSPORT3] << ncp_host_handle_apsde_data_response
+13583 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.016 high_level/host/transport/ncp_host_hl_proto_aps.c:150      [TRANSPORT3] << handle_apsde_data_response
+13584 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.016 high_level/host/transport/ncp_host_hl_proto_aps.c:369      [TRANSPORT3] << ncp_host_handle_aps_response
+13585 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 high_level/host/ncp_host_hl_proto.c:283    [TRANSPORT3] << handle_response_from_device
+13586 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 high_level/host/ncp_host_hl_proto.c:373    [TRANSPORT3] << handle_packet_from_device
+13587 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 zcl_reporting.c:1560       [ZCL1] zb_zcl_reporting_cb param 2, send status fb58
+13588 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 zcl_reporting.c:609        [ZCL1] >> zb_zcl_update_reporting_info rep_info 0xfffa3c08ba00, min_interval 5, max_interval 0 ep 1
+13589 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 zcl_reporting.c:614        [ZCL2] delay for min_interval
+13590 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 zcl_reporting.c:644        [ZCL1] delay for 5 seconds
+13591 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 zcl_reporting.c:652        [ZCL1] rep_info->run_time 2089
+13592 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 zcl_reporting.c:655        [ZCL1] << zb_zcl_update_reporting_info
+13593 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 zcl_reporting.c:667        [ZCL1] >> zb_zcl_adjust_reporting_timer
+13594 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 zcl_reporting.c:698        [ZCL1] reschedule 1, next_event_time 2089
+13595 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 zcl_reporting.c:717        [ZCL1] << zb_zcl_adjust_reporting_timer
+13596 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 zcl_reporting.c:932        [ZCL1] >> zb_zcl_report_attr buf_ref 2
+13597 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08b580, flags 5
+13598 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 zcl_reporting.c:944        [ZCL1] attr_id 0x0, manuf_code 0xffff
+13599 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08b5b0, flags 5
+13600 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 zcl_reporting.c:944        [ZCL1] attr_id 0x1, manuf_code 0xffff
+13601 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08b5e0, flags 5
+13602 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 zcl_reporting.c:944        [ZCL1] attr_id 0x2, manuf_code 0xffff
+13603 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08b610, flags 5
+13604 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 zcl_reporting.c:944        [ZCL1] attr_id 0x3, manuf_code 0xffff
+13605 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08b640, flags 5
+13606 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 zcl_reporting.c:944        [ZCL1] attr_id 0x4, manuf_code 0xffff
+13607 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08b670, flags 5
+13608 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 zcl_reporting.c:944        [ZCL1] attr_id 0x5, manuf_code 0xffff
+13609 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08b6a0, flags 5
+13610 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 zcl_reporting.c:944        [ZCL1] attr_id 0x6, manuf_code 0xffff
+13611 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08b6d0, flags 5
+13612 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 zcl_reporting.c:944        [ZCL1] attr_id 0x7, manuf_code 0xffff
+13613 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08b700, flags 5
+13614 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 zcl_reporting.c:944        [ZCL1] attr_id 0x8, manuf_code 0xffff
+13615 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08b730, flags 5
+13616 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 zcl_reporting.c:944        [ZCL1] attr_id 0x9, manuf_code 0xffff
+13617 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08b760, flags 5
+13618 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 zcl_reporting.c:944        [ZCL1] attr_id 0xa, manuf_code 0xffff
+13619 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.017 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08b790, flags 5
+13620 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:944        [ZCL1] attr_id 0xb, manuf_code 0xffff
+13621 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08b7c0, flags 5
+13622 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:944        [ZCL1] attr_id 0x4000, manuf_code 0xffff
+13623 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08b7f0, flags 5
+13624 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:944        [ZCL1] attr_id 0xfffd, manuf_code 0xffff
+13625 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08b820, flags 5
+13626 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:944        [ZCL1] attr_id 0x0, manuf_code 0xffff
+13627 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08b850, flags 5
+13628 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:944        [ZCL1] attr_id 0xfffd, manuf_code 0xffff
+13629 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08b880, flags 5
+13630 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:944        [ZCL1] attr_id 0x0, manuf_code 0xffff
+13631 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08b8b0, flags 5
+13632 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:944        [ZCL1] attr_id 0xfffd, manuf_code 0xffff
+13633 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08b8e0, flags 5
+13634 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:944        [ZCL1] attr_id 0x0, manuf_code 0xffff
+13635 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08b910, flags 5
+13636 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:944        [ZCL1] attr_id 0x1, manuf_code 0xffff
+13637 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08b940, flags 5
+13638 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:944        [ZCL1] attr_id 0x2, manuf_code 0xffff
+13639 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08b970, flags 5
+13640 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:944        [ZCL1] attr_id 0x3, manuf_code 0xffff
+13641 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08b9a0, flags 5
+13642 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:944        [ZCL1] attr_id 0x4, manuf_code 0xffff
+13643 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08b9d0, flags 5
+13644 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:944        [ZCL1] attr_id 0xfffd, manuf_code 0xffff
+13645 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08ba00, flags 11
+13646 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:944        [ZCL1] attr_id 0x0, manuf_code 0xffff
+13647 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08ba30, flags 5
+13648 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:944        [ZCL1] attr_id 0x4000, manuf_code 0xffff
+13649 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08ba60, flags 5
+13650 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:944        [ZCL1] attr_id 0x4001, manuf_code 0xffff
+13651 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08ba90, flags 5
+13652 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:944        [ZCL1] attr_id 0x4002, manuf_code 0xffff
+13653 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08bac0, flags 5
+13654 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:944        [ZCL1] attr_id 0x4003, manuf_code 0xffff
+13655 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08baf0, flags 5
+13656 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.018 zcl_reporting.c:944        [ZCL1] attr_id 0xfffd, manuf_code 0xffff
+13657 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.019 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08bb20, flags 5
+13658 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.019 zcl_reporting.c:944        [ZCL1] attr_id 0x0, manuf_code 0xffff
+13659 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.019 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08bb50, flags 5
+13660 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.019 zcl_reporting.c:944        [ZCL1] attr_id 0x1, manuf_code 0xffff
+13661 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.019 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08bb80, flags 5
+13662 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.019 zcl_reporting.c:944        [ZCL1] attr_id 0xf, manuf_code 0xffff
+13663 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.019 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08bbb0, flags 5
+13664 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.019 zcl_reporting.c:944        [ZCL1] attr_id 0x10, manuf_code 0xffff
+13665 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.019 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08bbe0, flags 5
+13666 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.019 zcl_reporting.c:944        [ZCL1] attr_id 0x11, manuf_code 0xffff
+13667 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.019 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08bc10, flags 5
+13668 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.019 zcl_reporting.c:944        [ZCL1] attr_id 0x4000, manuf_code 0xffff
+13669 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.019 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08bc40, flags 5
+13670 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.019 zcl_reporting.c:944        [ZCL1] attr_id 0xfffd, manuf_code 0xffff
+13671 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.019 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08bc70, flags 0
+13672 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.019 zcl_reporting.c:944        [ZCL1] attr_id 0x0, manuf_code 0x0
+13673 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.019 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08bca0, flags 2
+13674 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.019 zcl_reporting.c:944        [ZCL1] attr_id 0x0, manuf_code 0x0
+13675 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.019 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08bcd0, flags 2
+13676 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.019 zcl_reporting.c:944        [ZCL1] attr_id 0x0, manuf_code 0x0
+13677 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.019 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08bd00, flags 2
+13678 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.019 zcl_reporting.c:944        [ZCL1] attr_id 0x0, manuf_code 0x0
+13679 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.019 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08bd30, flags 0
+13680 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.019 zcl_reporting.c:944        [ZCL1] attr_id 0x0, manuf_code 0x0
+13681 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.019 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08bd60, flags 0
+13682 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.019 zcl_reporting.c:944        [ZCL1] attr_id 0x0, manuf_code 0x0
+13683 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.019 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08bd90, flags 0
+13684 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.019 zcl_reporting.c:944        [ZCL1] attr_id 0x0, manuf_code 0x0
+13685 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.019 zcl_reporting.c:943        [ZCL1] rep_info 0xfffa3c08bdc0, flags 0
+13686 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.019 zcl_reporting.c:944        [ZCL1] attr_id 0x0, manuf_code 0x0
+13687 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.019 zcl_reporting.c:982        [ZCL1] report is not sent, skip
+13688 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.019 zcl_reporting.c:985        [ZCL1] << zb_zcl_report_attr
+13689 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.023 high_level/host/ncp_host_hl_proto.c:341    [TRANSPORT3] >> handle_packet_from_device: data 0xffff9f19c688, len 7
+13690 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.023 high_level/host/ncp_host_hl_proto.c:354    [TRANSPORT3] version: 0x0, control: 0x1, call_id: 0x431
+13691 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.023 high_level/host/ncp_host_hl_proto.c:235    [TRANSPORT3] >> handle_response_from_device, data 0xffff9f19c688, len 7
+13692 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.023 high_level/host/ncp_host_hl_proto.c:238    [TRANSPORT3] response header: tsn 62, status category: 0, status code: 0
+13693 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.023 high_level/host/transport/ncp_host_hl_proto_nwkmgmt.c:1067 [TRANSPORT3] >> ncp_host_handle_nwkmgmt_response, call_id 1073, tsn 62
+13694 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.023 high_level/host/transport/ncp_host_hl_proto_nwkmgmt.c:507  [TRANSPORT3] >> handle_nwk_turbo_poll_cancel_packet_response, status_code 0
+13695 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.023 high_level/host/ncp_host_hl_proto.c:392    [TRANSPORT1] >> ncp_host_mark_blocking_request_finished
+13696 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.023 high_level/host/ncp_host_hl_proto.c:110    [TRANSPORT3] TX buffer free: buf_id 1
+13697 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.023 high_level/host/ncp_host_hl_proto.c:402    [TRANSPORT1] << ncp_host_mark_blocking_request_finished
+13698 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.023 high_level/host/adapters/ncp_host_hl_adapter_nwkmgmt.c:877 [TRANSPORT3] >> ncp_host_handle_nwk_turbo_poll_cancel_packet_response, status_code 0
+13699 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.023 high_level/host/adapters/ncp_host_hl_adapter_nwkmgmt.c:881 [TRANSPORT3] << ncp_host_handle_nwk_turbo_poll_cancel_packet_response
+13700 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.023 high_level/host/transport/ncp_host_hl_proto_nwkmgmt.c:513  [TRANSPORT3] << handle_nwk_turbo_poll_cancel_packet_response
+13701 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.023 high_level/host/transport/ncp_host_hl_proto_nwkmgmt.c:1176 [TRANSPORT3] << ncp_host_handle_nwkmgmt_response
+13702 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.023 high_level/host/ncp_host_hl_proto.c:283    [TRANSPORT3] << handle_response_from_device
+13703 1afdf0e0 2025-11-25 14:3:28 1759/27018/027.023 high_level/host/ncp_host_hl_proto.c:373    [TRANSPORT3] << handle_packet_from_device
+13704 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.390 high_level/host/ncp_host_hl_proto.c:341    [TRANSPORT3] >> handle_packet_from_device: data 0xffff9f19c688, len 13
+13705 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.391 high_level/host/ncp_host_hl_proto.c:354    [TRANSPORT3] version: 0x0, control: 0x2, call_id: 0x40b
+13706 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.391 high_level/host/ncp_host_hl_proto.c:292    [TRANSPORT3] >> handle_indication_from_device, data 0xffff9f19c688, len 13
+13707 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.391 high_level/host/transport/ncp_host_hl_proto_nwkmgmt.c:1183 [TRANSPORT3] >> ncp_host_handle_nwkmgmt_indication, call_id 1035
+13708 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.391 high_level/host/transport/ncp_host_hl_proto_nwkmgmt.c:796  [TRANSPORT3] >> handle_nwk_leave_indication
+13709 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.391 high_level/host/transport/ncp_host_hl_proto_nwkmgmt.c:798  [TRANSPORT3]   >> parse handle_nwk_leave_indication
+13710 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.391 high_level/host/ncp_host_hl_buffers.c:73   [TRANSPORT3] >> ncp_host_hl_init_indication_body, hdr 0xffff9f19c688, len 13
+13711 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.391 high_level/host/ncp_host_hl_buffers.c:82   [TRANSPORT3] << ncp_host_hl_init_indication_body, ret 0
+13712 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.391 high_level/host/transport/ncp_host_hl_proto_nwkmgmt.c:804  [TRANSPORT3]  device_addr = ab:cd:ef:00:00:00:00:01
+13713 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.391 high_level/host/transport/ncp_host_hl_proto_nwkmgmt.c:807  [TRANSPORT3]  rejoin = 0
+13714 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.391 high_level/host/transport/ncp_host_hl_proto_nwkmgmt.c:809  [TRANSPORT3]   << parse handle_nwk_leave_indication
+13715 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.391 high_level/host/adapters/ncp_host_hl_adapter_nwkmgmt.c:679 [TRANSPORT3] >> ncp_host_handle_nwk_leave_indication
+13716 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.391 high_level/host/ncp_host_soc_state.c:486   [ZDO2] zb_get_long_address: ab:cd:ef:00:00:00:00:01
+13717 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.391 high_level/host/ncp_host_soc_state.c:327   [TRANSPORT3] >> ncp_host_state_set_extended_pan_id, addr 00:00:00:00:00:00:00:00
+13718 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.391 high_level/host/adapters/ncp_host_hl_adapter_nwkmgmt.c:715 [TRANSPORT3] << ncp_host_handle_nwk_leave_indication
+13719 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.391 high_level/host/transport/ncp_host_hl_proto_nwkmgmt.c:813  [TRANSPORT3] << handle_nwk_leave_indication
+13720 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.391 high_level/host/transport/ncp_host_hl_proto_nwkmgmt.c:1220 [TRANSPORT3] << ncp_host_handle_nwkmgmt_indication
+13721 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.391 high_level/host/ncp_host_hl_proto.c:334    [TRANSPORT3] << handle_indication_from_device
+13722 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.391 high_level/host/ncp_host_hl_proto.c:373    [TRANSPORT3] << handle_packet_from_device
+13723 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.391 zdo_commissioning.c:380    [NWK1] >>zb_zdo_clear_after_leave_cont
+13724 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.391 high_level/host/transport/ncp_host_hl_proto_configuration.c:1851   [TRANSPORT2] >> ncp_host_nvram_clear_request
+13725 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.391 high_level/host/ncp_host_hl_proto.c:478    [TRANSPORT3] >> ncp_host_get_buf_for_blocking_request, call_id 0x31
+13726 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.391 high_level/host/ncp_host_hl_buffers.c:112  [TRANSPORT3] >> ncp_host_hl_init_request_body, hdr 0xffff9f12ca94
+13727 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.391 high_level/host/ncp_host_hl_buffers.c:122  [TRANSPORT3] << ncp_host_hl_init_request_body, ret 0
+13728 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.391 high_level/host/ncp_host_hl_proto.c:488    [TRANSPORT3] << ncp_host_get_buf_for_blocking_request, ret 0, tsn 63
+13729 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.391 high_level/host/ncp_host_hl_proto.c:520    [TRANSPORT3] >> ncp_host_hl_send_packet, buf_id 1
+13730 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.391 high_level/host/ncp_host_hl_proto.c:549    [TRANSPORT3]     send packet without queueing, is_blocking 1
+13731 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.391 high_level/host/ncp_host_hl_proto.c:570    [TRANSPORT3] << ncp_host_hl_send_packet, ret 0
+13732 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.391 high_level/host/transport/ncp_host_hl_proto_configuration.c:1858   [TRANSPORT2] << ncp_host_nvram_clear_request, ret 0
+13733 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.392 zdo_commissioning_bdb.c:2250       [ZDO1] >> bdb_handle_comm_signal, signal 10, param 0
+13734 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.392 zdo_commissioning_bdb.c:2074       [NWK1] BDB commissioning machine is already finished, do nothing
+13735 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.392 zdo_commissioning_bdb.c:2344       [ZDO1] << bdb_handle_comm_signal
+13736 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.392 zdo_commissioning.c:432    [NWK1] <<zb_zdo_clear_after_leave_cont
+13737 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.392 zdo_app_leave.c:534        [NWK1] zb_send_leave_signal param 4
+13738 1afdf0e0 2025-11-25 14:3:28 1783/27386/027.392 zboss_wrapper.c:263        [APP1] Leave signal, type 0
+13739 39fbf0e0 2025-11-25 14:3:28 1784/27402/027.408 zboss_wrapper.c:478        [APP2] mgmt_leave_req called
+13740 1afdf0e0 2025-11-25 14:3:28 1784/27402/027.409 high_level/host/adapters/ncp_host_hl_adapter_zdo.c:271     [TRANSPORT2] >> zdo_mgmt_leave_req
+13741 1afdf0e0 2025-11-25 14:3:28 1784/27402/027.409 high_level/host/adapters/ncp_host_hl_adapter_zdo.c:143     [TRANSPORT2] >> ncp_host_zdo_adapter_register_request, cb 0xffff9f090430
+13742 1afdf0e0 2025-11-25 14:3:28 1784/27402/027.409 high_level/host/adapters/ncp_host_hl_adapter_zdo.c:164     [TRANSPORT2] set zdo_cb entry in ncp_host_zdo_adapter_ctx to 0xffff9f090430 by 0 index
+13743 1afdf0e0 2025-11-25 14:3:28 1784/27402/027.409 high_level/host/adapters/ncp_host_hl_adapter_zdo.c:179     [TRANSPORT2] << ncp_host_zdo_adapter_register_request, zdp_tsn 2
+13744 1afdf0e0 2025-11-25 14:3:28 1784/27402/027.409 high_level/host/transport/ncp_host_hl_proto_zdo.c:1209     [TRANSPORT2] >> ncp_host_zdo_mgmt_leave_request
+13745 1afdf0e0 2025-11-25 14:3:28 1784/27402/027.409 high_level/host/ncp_host_hl_proto.c:501    [TRANSPORT3] >> ncp_host_get_buf_for_nonblocking_request, call_id 0x20a
+13746 1afdf0e0 2025-11-25 14:3:28 1784/27402/027.409 high_level/host/ncp_host_hl_buffers.c:112  [TRANSPORT3] >> ncp_host_hl_init_request_body, hdr 0xffff9f12ea96
+13747 1afdf0e0 2025-11-25 14:3:28 1784/27402/027.409 high_level/host/ncp_host_hl_buffers.c:122  [TRANSPORT3] << ncp_host_hl_init_request_body, ret 0
+13748 1afdf0e0 2025-11-25 14:3:28 1784/27402/027.409 high_level/host/ncp_host_hl_proto.c:511    [TRANSPORT3] << ncp_host_get_buf_for_nonblocking_request, ret 0, tsn 64
+13749 1afdf0e0 2025-11-25 14:3:28 1784/27402/027.409 high_level/host/transport/ncp_host_hl_proto_zdo.c:1224     [TRANSPORT3] dst_addr 0x103c
+13750 1afdf0e0 2025-11-25 14:3:28 1784/27402/027.409 high_level/host/transport/ncp_host_hl_proto_zdo.c:1227     [TRANSPORT3] src_addr 00:00:00:00:00:00:00:00
+13751 1afdf0e0 2025-11-25 14:3:28 1784/27402/027.409 high_level/host/transport/ncp_host_hl_proto_zdo.c:1230     [TRANSPORT3] flags 0x40
+13752 1afdf0e0 2025-11-25 14:3:28 1784/27402/027.409 high_level/host/ncp_host_hl_proto.c:520    [TRANSPORT3] >> ncp_host_hl_send_packet, buf_id 2
+13753 1afdf0e0 2025-11-25 14:3:28 1784/27402/027.409 high_level/host/ncp_host_hl_proto.c:549    [TRANSPORT3]     send packet without queueing, is_blocking 0
+13754 1afdf0e0 2025-11-25 14:3:28 1784/27402/027.409 high_level/host/ncp_host_hl_proto.c:110    [TRANSPORT3] TX buffer free: buf_id 2
+13755 1afdf0e0 2025-11-25 14:3:28 1784/27402/027.409 high_level/host/ncp_host_hl_proto.c:570    [TRANSPORT3] << ncp_host_hl_send_packet, ret 0
+13756 1afdf0e0 2025-11-25 14:3:28 1784/27402/027.409 high_level/host/transport/ncp_host_hl_proto_zdo.c:1235     [TRANSPORT2] << ncp_host_zdo_mgmt_leave_request, ret 0
+13757 1afdf0e0 2025-11-25 14:3:28 1784/27402/027.409 high_level/host/adapters/ncp_host_hl_adapter_zdo.c:284     [TRANSPORT2] << zdo_mgmt_leave_req
+13758 1afdf0e0 2025-11-25 14:3:28 1785/27417/027.418 high_level/host/ncp_host_hl_proto.c:341    [TRANSPORT3] >> handle_packet_from_device: data 0xffff9f19c688, len 7
+13759 1afdf0e0 2025-11-25 14:3:28 1785/27417/027.419 high_level/host/ncp_host_hl_proto.c:354    [TRANSPORT3] version: 0x0, control: 0x1, call_id: 0x31
+13760 1afdf0e0 2025-11-25 14:3:28 1785/27417/027.419 high_level/host/ncp_host_hl_proto.c:235    [TRANSPORT3] >> handle_response_from_device, data 0xffff9f19c688, len 7
+13761 1afdf0e0 2025-11-25 14:3:28 1785/27417/027.419 high_level/host/ncp_host_hl_proto.c:238    [TRANSPORT3] response header: tsn 63, status category: 0, status code: 0
+13762 1afdf0e0 2025-11-25 14:3:28 1785/27417/027.419 high_level/host/transport/ncp_host_hl_proto_configuration.c:1009   [TRANSPORT3] >> ncp_host_handle_configuration_response
+13763 1afdf0e0 2025-11-25 14:3:28 1785/27417/027.419 high_level/host/transport/ncp_host_hl_proto_configuration.c:773    [TRANSPORT3] >> handle_nvram_clear_response, status_code 0
+13764 1afdf0e0 2025-11-25 14:3:28 1785/27417/027.419 high_level/host/ncp_host_hl_proto.c:392    [TRANSPORT1] >> ncp_host_mark_blocking_request_finished
+13765 1afdf0e0 2025-11-25 14:3:28 1785/27417/027.419 high_level/host/ncp_host_hl_proto.c:110    [TRANSPORT3] TX buffer free: buf_id 1
+13766 1afdf0e0 2025-11-25 14:3:28 1785/27417/027.419 high_level/host/ncp_host_hl_proto.c:402    [TRANSPORT1] << ncp_host_mark_blocking_request_finished
+13767 1afdf0e0 2025-11-25 14:3:28 1785/27417/027.419 high_level/host/adapters/ncp_host_hl_adapter_nvram.c:724   [TRANSPORT2] >> ncp_host_handle_nvram_clear_response, status 0x0
+13768 1afdf0e0 2025-11-25 14:3:28 1785/27417/027.419 high_level/host/adapters/ncp_host_hl_adapter_nvram.c:728   [TRANSPORT2] << ncp_host_handle_nvram_clear_response
+13769 1afdf0e0 2025-11-25 14:3:28 1785/27417/027.419 high_level/host/transport/ncp_host_hl_proto_configuration.c:779    [TRANSPORT3] << handle_nvram_clear_response
+13770 1afdf0e0 2025-11-25 14:3:28 1785/27417/027.419 high_level/host/transport/ncp_host_hl_proto_configuration.c:1138   [TRANSPORT3] << ncp_host_handle_configuration_response
+13771 1afdf0e0 2025-11-25 14:3:28 1785/27417/027.419 high_level/host/ncp_host_hl_proto.c:283    [TRANSPORT3] << handle_response_from_device
+13772 1afdf0e0 2025-11-25 14:3:28 1785/27417/027.419 high_level/host/ncp_host_hl_proto.c:373    [TRANSPORT3] << handle_packet_from_device
+13773 1afdf0e0 2025-11-25 14:3:28 1785/27417/027.423 high_level/host/ncp_host_hl_proto.c:341    [TRANSPORT3] >> handle_packet_from_device: data 0xffff9f19c688, len 7
+13774 1afdf0e0 2025-11-25 14:3:28 1785/27417/027.423 high_level/host/ncp_host_hl_proto.c:354    [TRANSPORT3] version: 0x0, control: 0x1, call_id: 0x20a
+13775 1afdf0e0 2025-11-25 14:3:28 1785/27417/027.423 high_level/host/ncp_host_hl_proto.c:235    [TRANSPORT3] >> handle_response_from_device, data 0xffff9f19c688, len 7
+13776 1afdf0e0 2025-11-25 14:3:28 1785/27417/027.423 high_level/host/ncp_host_hl_proto.c:238    [TRANSPORT3] response header: tsn 64, status category: 5, status code: 133
+13777 1afdf0e0 2025-11-25 14:3:28 1785/27417/027.423 high_level/host/transport/ncp_host_hl_proto_zdo.c:889      [TRANSPORT3] >> ncp_host_handle_zdo_response
+13778 1afdf0e0 2025-11-25 14:3:28 1785/27417/027.423 high_level/host/transport/ncp_host_hl_proto_zdo.c:501      [TRANSPORT3] >> handle_zdo_mgmt_leave_response, status_code -1413
+13779 1afdf0e0 2025-11-25 14:3:28 1785/27417/027.423 high_level/host/adapters/ncp_host_hl_adapter_zdo.c:1406    [TRANSPORT3] >> ncp_host_handle_zdo_mgmt_leave_response
+13780 1afdf0e0 2025-11-25 14:3:28 1785/27417/027.423 high_level/host/adapters/ncp_host_hl_adapter_zdo.c:214     [TRANSPORT2] >> ncp_host_zdo_adapter_call_cb_by_for_blocking_req
+13781 1afdf0e0 2025-11-25 14:3:28 1785/27417/027.423 zboss_wrapper.c:459        [APP2] mgmt_leave_req_cb called
+13782 1afdf0e0 2025-11-25 14:3:28 1785/27417/027.423 zboss_wrapper.c:462        [APP1] mgmt_leave_req_cb status: 133
+13783 1afdf0e0 2025-11-25 14:3:28 1785/27417/027.430 high_level/host/adapters/ncp_host_hl_adapter_zdo.c:197     [TRANSPORT2] >> ncp_host_zdo_adapter_clean_cb_ent
+13784 1afdf0e0 2025-11-25 14:3:28 1785/27417/027.430 high_level/host/adapters/ncp_host_hl_adapter_zdo.c:207     [TRANSPORT2] << ncp_host_zdo_adapter_clean_cb_ent
+13785 1afdf0e0 2025-11-25 14:3:28 1785/27417/027.430 high_level/host/adapters/ncp_host_hl_adapter_zdo.c:234     [TRANSPORT2] >> ncp_host_zdo_adapter_call_cb_by_for_blocking_req
+13786 1afdf0e0 2025-11-25 14:3:28 1785/27417/027.430 high_level/host/adapters/ncp_host_hl_adapter_zdo.c:1440    [TRANSPORT3] << ncp_host_handle_zdo_mgmt_leave_response
+13787 1afdf0e0 2025-11-25 14:3:28 1785/27417/027.431 high_level/host/transport/ncp_host_hl_proto_zdo.c:505      [TRANSPORT3] << handle_zdo_mgmt_leave_response
+13788 1afdf0e0 2025-11-25 14:3:28 1785/27417/027.431 high_level/host/transport/ncp_host_hl_proto_zdo.c:954      [TRANSPORT3] << ncp_host_handle_zdo_response
+13789 1afdf0e0 2025-11-25 14:3:28 1785/27417/027.431 high_level/host/ncp_host_hl_proto.c:283    [TRANSPORT3] << handle_response_from_device
+13790 1afdf0e0 2025-11-25 14:3:28 1785/27417/027.431 high_level/host/ncp_host_hl_proto.c:373    [TRANSPORT3] << handle_packet_from_device
+13791 1afdf0e0 2025-11-25 14:3:30 1916/29429/029.435 zboss_wrapper.c:206        [APP1] shut started
+13792 1afdf0e0 2025-11-25 14:3:30 1916/29429/029.435 zboss_wrapper.c:208        [APP1] serial deinit
+13793 1afdf0e0 2025-11-25 14:3:30 1916/29429/029.457 zboss_wrapper.c:210        [APP1] sched stopping
+13794 1afdf0e0 2025-11-25 14:3:30 1916/29429/029.458 zb_scheduler_init.c:82     [ERROR] >> zb_sched_stop
+13795 1afdf0e0 2025-11-25 14:3:30 1916/29429/029.458 zboss_wrapper.c:213        [APP1] shut finished
